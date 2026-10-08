@@ -1,0 +1,80 @@
+{
+ "lg/lg SUR-DOC-COLLAPSED": {
+  "recall": "368/400",
+  "lost": 25,
+  "residual": 31,
+  "vs_RAW5": {
+   "d_lost": 14.0,
+   "ci": [
+    6.0,
+    25.0
+   ],
+   "clusters_changed": 10
+  }
+ },
+ "lg/lg SUR-DOC-SKIP": {
+  "recall": "359/400",
+  "lost": 21,
+  "residual": 41,
+  "vs_RAW5": {
+   "d_lost": 10.0,
+   "ci": [
+    3.0,
+    18.0
+   ],
+   "clusters_changed": 8
+  }
+ },
+ "lg/lg SUR-DOC": {
+  "recall": "2/400",
+  "lost": 0,
+  "residual": 398,
+  "vs_RAW5": {
+   "d_lost": -11.0,
+   "ci": [
+    -27.0,
+    -1.0
+   ],
+   "clusters_changed": 5
+  }
+ },
+ "lg/sm SUR-DOC-COLLAPSED": {
+  "recall": "297/400",
+  "lost": 23,
+  "residual": 100,
+  "vs_RAW5": {
+   "d_lost": 12.0,
+   "ci": [
+    4.0,
+    21.0
+   ],
+   "clusters_changed": 9
+  }
+ },
+ "lg/sm SUR-DOC-SKIP": {
+  "recall": "278/400",
+  "lost": 19,
+  "residual": 120,
+  "vs_RAW5": {
+   "d_lost": 8.0,
+   "ci": [
+    2.0,
+    15.0
+   ],
+   "clusters_changed": 7
+  }
+ },
+ "lg/sm SUR-DOC": {
+  "recall": "1/400",
+  "lost": 0,
+  "residual": 399,
+  "vs_RAW5": {
+   "d_lost": -11.0,
+   "ci": [
+    -27.0,
+    -1.0
+   ],
+   "clusters_changed": 5
+  }
+ }
+}

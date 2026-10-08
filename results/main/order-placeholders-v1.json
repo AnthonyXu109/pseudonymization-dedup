@@ -1,0 +1,321 @@
+{
+  "addendum": "frozen_fixed_release_placeholder_decisions_20261004",
+  "analysis": "controlled_internal_decision_order_fixed_document_release",
+  "contrasts": {
+    "MASK_minus_RAW": {
+      "copy_unit_count": 400,
+      "lost_case_count_delta": {
+        "bootstrap_clusters": 1242,
+        "bootstrap_replicates": 2000,
+        "ci95": [
+          5,
+          24
+        ],
+        "estimate": 14
+      },
+      "original_case_count": 1268,
+      "pipeline_recall_delta": {
+        "bootstrap_clusters": 398,
+        "bootstrap_replicates": 2000,
+        "ci95": [
+          -0.01256281407035176,
+          0.007518796992481203
+        ],
+        "estimate": -0.0025
+      }
+    },
+    "SUR-CORPUS_minus_RAW": {
+      "copy_unit_count": 400,
+      "lost_case_count_delta": {
+        "bootstrap_clusters": 1257,
+        "bootstrap_replicates": 2000,
+        "ci95": [
+          -14,
+          -1
+        ],
+        "estimate": -6
+      },
+      "original_case_count": 1268,
+      "pipeline_recall_delta": {
+        "bootstrap_clusters": 399,
+        "bootstrap_replicates": 2000,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0
+      }
+    },
+    "SUR-DOC_minus_RAW": {
+      "copy_unit_count": 400,
+      "lost_case_count_delta": {
+        "bootstrap_clusters": 1257,
+        "bootstrap_replicates": 2000,
+        "ci95": [
+          -28,
+          -1
+        ],
+        "estimate": -11
+      },
+      "original_case_count": 1268,
+      "pipeline_recall_delta": {
+        "bootstrap_clusters": 399,
+        "bootstrap_replicates": 2000,
+        "ci95": [
+          -0.899749373433584,
+          -0.8325
+        ],
+        "estimate": -0.8675
+      }
+    },
+    "TYPE_minus_RAW": {
+      "copy_unit_count": 400,
+      "lost_case_count_delta": {
+        "bootstrap_clusters": 1242,
+        "bootstrap_replicates": 2000,
+        "ci95": [
+          5,
+          24
+        ],
+        "estimate": 14
+      },
+      "original_case_count": 1268,
+      "pipeline_recall_delta": {
+        "bootstrap_clusters": 398,
+        "bootstrap_replicates": 2000,
+        "ci95": [
+          -0.01256281407035176,
+          0.007518796992481203
+        ],
+        "estimate": -0.0025
+      }
+    }
+  },
+  "fixed_release": "SUR-DOC",
+  "gold_span_mode": "first_annotator",
+  "normalization": "plain",
+  "provenance": {
+    "code": [
+      {
+        "path": "./run_order_placeholders.py",
+        "sha256": "29ee308637b37049c47faf1c521927d49ac1c9a38391c2725f8b96cd737f7df9"
+      },
+      {
+        "path": "./run_order.py",
+        "sha256": "c86ee37a7e7e0c90b0193441b3eb5ddf7f4672387cf2eae7e1a68e5766fcbd07"
+      },
+      {
+        "path": "./analysis.py",
+        "sha256": "31d69fbed9dc3b98ce600f35931d7668e3e8c3b6d787257acd7862495e2bd6c5"
+      },
+      {
+        "path": "./PLACEHOLDER_DECISION_PROTOCOL_20261004.md",
+        "sha256": "907cb5d16c96857456f8fefcd5642614ae55edd7ffe09488129be2f59046452a"
+      },
+      {
+        "path": "./pseudonymization-dedup/xcur/common.py",
+        "sha256": "e13464900df279a194656d5416af9b4134f7faea1c21d757ad175ef2f6504877"
+      },
+      {
+        "path": "./pseudonymization-dedup/xcur/build_corpus.py",
+        "sha256": "769caf22eca96ee926526bb44fe5a87b4cb82095be677029f1db516e7ea28685"
+      },
+      {
+        "path": "./pseudonymization-dedup/xcur/evalcore.py",
+        "sha256": "f3e653a8a4195584a0649fa1eea37a68faa96e205c26232b4a52658f57451210"
+      }
+    ],
+    "created_utc": "2026-10-04T22:31:07.811856+00:00",
+    "peak_rss_bytes": 606371840,
+    "random_seed": 20261001,
+    "source_candidate_pdf_sha256": "b982b9f06ecfdb7ec17bad52a83fe41680ef00fed578db6376b5d88d724c5572",
+    "tab_inputs": [
+      {
+        "bytes": 12643092,
+        "path": "./data/20261001/tab/echr_dev.json",
+        "sha256": "8c3c7306f46b8d54debeb38ae11d8b0b8bcf4bdccbc3b6f13c12ad7be16893ec"
+      },
+      {
+        "bytes": 13103290,
+        "path": "./data/20261001/tab/echr_test.json",
+        "sha256": "cd0f0f15f84a8739654c7cf30c6be8ce27b051ef73974d39d792a0cb8c846379"
+      },
+      {
+        "bytes": 47503662,
+        "path": "./data/20261001/tab/echr_train.json",
+        "sha256": "4aba41f8ac305ff9e93dd6f0bbc16756e57e9ace396c827931fab70e18d8c6a6"
+      }
+    ]
+  },
+  "retention_policy": "retain_each_distinct_TAB_case; merge_copies_of_same_case",
+  "rows": {
+    "MASK": {
+      "candidate_edges": 405,
+      "copies_detected_in_component": 363,
+      "copies_total": 400,
+      "decision": "MASK",
+      "direct_pair_recall": 0.9075,
+      "distinct_cases_lost": 25,
+      "lost_case_ids": [
+        305,
+        389,
+        434,
+        615,
+        693,
+        755,
+        762,
+        765,
+        770,
+        820,
+        828,
+        829,
+        834,
+        840,
+        849,
+        1089,
+        1094,
+        1095,
+        1125,
+        1127,
+        1137,
+        1228,
+        1232,
+        1256,
+        1259
+      ],
+      "pipeline_recall": 0.9075,
+      "records_retained": 1280,
+      "release": "SUR-DOC",
+      "released_cross_case_person_string": {
+        "correct": 0,
+        "precision": null,
+        "predicted": 0,
+        "recall": 0.0,
+        "true": 36168
+      }
+    },
+    "RAW": {
+      "candidate_edges": 387,
+      "copies_detected_in_component": 364,
+      "copies_total": 400,
+      "decision": "RAW",
+      "direct_pair_recall": 0.91,
+      "distinct_cases_lost": 11,
+      "lost_case_ids": [
+        305,
+        389,
+        400,
+        755,
+        765,
+        834,
+        1125,
+        1127,
+        1137,
+        1256,
+        1259
+      ],
+      "pipeline_recall": 0.91,
+      "records_retained": 1293,
+      "release": "SUR-DOC",
+      "released_cross_case_person_string": {
+        "correct": 0,
+        "precision": null,
+        "predicted": 0,
+        "recall": 0.0,
+        "true": 36835
+      }
+    },
+    "SUR-CORPUS": {
+      "candidate_edges": 371,
+      "copies_detected_in_component": 364,
+      "copies_total": 400,
+      "decision": "SUR-CORPUS",
+      "direct_pair_recall": 0.91,
+      "distinct_cases_lost": 5,
+      "lost_case_ids": [
+        765,
+        834,
+        1127,
+        1256,
+        1259
+      ],
+      "pipeline_recall": 0.91,
+      "records_retained": 1299,
+      "release": "SUR-DOC",
+      "released_cross_case_person_string": {
+        "correct": 0,
+        "precision": null,
+        "predicted": 0,
+        "recall": 0.0,
+        "true": 36950
+      }
+    },
+    "SUR-DOC": {
+      "candidate_edges": 17,
+      "copies_detected_in_component": 17,
+      "copies_total": 400,
+      "decision": "SUR-DOC",
+      "direct_pair_recall": 0.0425,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "pipeline_recall": 0.0425,
+      "records_retained": 1651,
+      "release": "SUR-DOC",
+      "released_cross_case_person_string": {
+        "correct": 0,
+        "precision": null,
+        "predicted": 0,
+        "recall": 0.0,
+        "true": 54891
+      }
+    },
+    "TYPE": {
+      "candidate_edges": 405,
+      "copies_detected_in_component": 363,
+      "copies_total": 400,
+      "decision": "TYPE",
+      "direct_pair_recall": 0.9075,
+      "distinct_cases_lost": 25,
+      "lost_case_ids": [
+        305,
+        389,
+        434,
+        615,
+        693,
+        755,
+        762,
+        765,
+        770,
+        820,
+        828,
+        829,
+        834,
+        840,
+        849,
+        1089,
+        1094,
+        1095,
+        1125,
+        1127,
+        1137,
+        1228,
+        1232,
+        1256,
+        1259
+      ],
+      "pipeline_recall": 0.9075,
+      "records_retained": 1280,
+      "release": "SUR-DOC",
+      "released_cross_case_person_string": {
+        "correct": 0,
+        "precision": null,
+        "predicted": 0,
+        "recall": 0.0,
+        "true": 36168
+      }
+    }
+  },
+  "shingle_words": 5,
+  "status": "follow_up_on_seen_data",
+  "threshold": 0.7
+}

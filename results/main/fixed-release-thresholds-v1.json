@@ -1,0 +1,1086 @@
+{
+  "analysis": "fixed_release_tab_threshold_sensitivity",
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261001,
+  "contrasts": {
+    "0.5": {
+      "MASK_minus_RAW": {
+        "bootstrap_clusters": 1220,
+        "lost_case_count_delta": {
+          "ci95": [
+            -2,
+            19
+          ],
+          "estimate": 7
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0
+        }
+      },
+      "SUR-CORPUS_minus_RAW": {
+        "bootstrap_clusters": 1230,
+        "lost_case_count_delta": {
+          "ci95": [
+            -14,
+            -3
+          ],
+          "estimate": -8
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0
+        }
+      },
+      "SUR-DOC_minus_RAW": {
+        "bootstrap_clusters": 1230,
+        "lost_case_count_delta": {
+          "ci95": [
+            -66,
+            -18
+          ],
+          "estimate": -39
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            -0.5796019900497512,
+            -0.485
+          ],
+          "estimate": -0.53
+        }
+      },
+      "TYPE_minus_RAW": {
+        "bootstrap_clusters": 1220,
+        "lost_case_count_delta": {
+          "ci95": [
+            -2,
+            19
+          ],
+          "estimate": 7
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0
+        }
+      }
+    },
+    "0.6": {
+      "MASK_minus_RAW": {
+        "bootstrap_clusters": 1238,
+        "lost_case_count_delta": {
+          "ci95": [
+            2,
+            27
+          ],
+          "estimate": 13
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            0.0,
+            0.007537688442211055
+          ],
+          "estimate": 0.0025
+        }
+      },
+      "SUR-CORPUS_minus_RAW": {
+        "bootstrap_clusters": 1254,
+        "lost_case_count_delta": {
+          "ci95": [
+            -12,
+            -1
+          ],
+          "estimate": -6
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0
+        }
+      },
+      "SUR-DOC_minus_RAW": {
+        "bootstrap_clusters": 1254,
+        "lost_case_count_delta": {
+          "ci95": [
+            -51,
+            -7
+          ],
+          "estimate": -24
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            -0.7994987468671679,
+            -0.7175
+          ],
+          "estimate": -0.7575
+        }
+      },
+      "TYPE_minus_RAW": {
+        "bootstrap_clusters": 1238,
+        "lost_case_count_delta": {
+          "ci95": [
+            2,
+            27
+          ],
+          "estimate": 13
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            0.0,
+            0.007537688442211055
+          ],
+          "estimate": 0.0025
+        }
+      }
+    },
+    "0.7": {
+      "MASK_minus_RAW": {
+        "bootstrap_clusters": 1276,
+        "lost_case_count_delta": {
+          "ci95": [
+            5,
+            24
+          ],
+          "estimate": 14
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            -0.01256281407035176,
+            0.007518796992481203
+          ],
+          "estimate": -0.0025
+        }
+      },
+      "SUR-CORPUS_minus_RAW": {
+        "bootstrap_clusters": 1293,
+        "lost_case_count_delta": {
+          "ci95": [
+            -14,
+            -1
+          ],
+          "estimate": -6
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0
+        }
+      },
+      "SUR-DOC_minus_RAW": {
+        "bootstrap_clusters": 1293,
+        "lost_case_count_delta": {
+          "ci95": [
+            -28,
+            -1
+          ],
+          "estimate": -11
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            -0.899749373433584,
+            -0.8325
+          ],
+          "estimate": -0.8675
+        }
+      },
+      "TYPE_minus_RAW": {
+        "bootstrap_clusters": 1276,
+        "lost_case_count_delta": {
+          "ci95": [
+            5,
+            24
+          ],
+          "estimate": 14
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            -0.01256281407035176,
+            0.007518796992481203
+          ],
+          "estimate": -0.0025
+        }
+      }
+    },
+    "0.8": {
+      "MASK_minus_RAW": {
+        "bootstrap_clusters": 1349,
+        "lost_case_count_delta": {
+          "ci95": [
+            -1,
+            10
+          ],
+          "estimate": 4
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            -0.01,
+            0.02
+          ],
+          "estimate": 0.005
+        }
+      },
+      "SUR-CORPUS_minus_RAW": {
+        "bootstrap_clusters": 1360,
+        "lost_case_count_delta": {
+          "ci95": [
+            -11,
+            0
+          ],
+          "estimate": -4
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0
+        }
+      },
+      "SUR-DOC_minus_RAW": {
+        "bootstrap_clusters": 1360,
+        "lost_case_count_delta": {
+          "ci95": [
+            -13,
+            0
+          ],
+          "estimate": -5
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            -0.7875,
+            -0.705
+          ],
+          "estimate": -0.7475
+        }
+      },
+      "TYPE_minus_RAW": {
+        "bootstrap_clusters": 1348,
+        "lost_case_count_delta": {
+          "ci95": [
+            -1,
+            10
+          ],
+          "estimate": 4
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            -0.01,
+            0.025
+          ],
+          "estimate": 0.0075
+        }
+      }
+    },
+    "0.9": {
+      "MASK_minus_RAW": {
+        "bootstrap_clusters": 1485,
+        "lost_case_count_delta": {
+          "ci95": [
+            0,
+            5
+          ],
+          "estimate": 2
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            -0.0125,
+            0.0175
+          ],
+          "estimate": 0.0025
+        }
+      },
+      "SUR-CORPUS_minus_RAW": {
+        "bootstrap_clusters": 1492,
+        "lost_case_count_delta": {
+          "ci95": [
+            0,
+            0
+          ],
+          "estimate": 0
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0
+        }
+      },
+      "SUR-DOC_minus_RAW": {
+        "bootstrap_clusters": 1492,
+        "lost_case_count_delta": {
+          "ci95": [
+            0,
+            0
+          ],
+          "estimate": 0
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            -0.49,
+            -0.3925
+          ],
+          "estimate": -0.44
+        }
+      },
+      "TYPE_minus_RAW": {
+        "bootstrap_clusters": 1485,
+        "lost_case_count_delta": {
+          "ci95": [
+            0,
+            5
+          ],
+          "estimate": 2
+        },
+        "pipeline_recall_delta": {
+          "ci95": [
+            -0.0125,
+            0.0175
+          ],
+          "estimate": 0.0025
+        }
+      }
+    }
+  },
+  "decision_representations": [
+    "RAW",
+    "MASK",
+    "TYPE",
+    "SUR-CORPUS",
+    "SUR-DOC"
+  ],
+  "fixed_final_release_form": "SUR-DOC",
+  "provenance": {
+    "code": [
+      {
+        "path": "./followup_thresholds.py",
+        "sha256": "b54704668d28d65312d1c3a4f597755bfc1616410a75564fce4fc722647a7475"
+      },
+      {
+        "path": "./followup_science.py",
+        "sha256": "6711057ce50b414c36113115bab379af13c26862cc70116f219b26d823afd77c"
+      },
+      {
+        "path": "./analysis.py",
+        "sha256": "31d69fbed9dc3b98ce600f35931d7668e3e8c3b6d787257acd7862495e2bd6c5"
+      },
+      {
+        "path": "./FOLLOWUP_SCIENCE_PROTOCOL_20261004.md",
+        "sha256": "60f772bb67c9548ae5ef530e2350110a733bfe9ffb08d2fbfe91d63d8bf8cea2"
+      },
+      {
+        "path": "./pseudonymization-dedup/xcur/common.py",
+        "sha256": "e13464900df279a194656d5416af9b4134f7faea1c21d757ad175ef2f6504877"
+      },
+      {
+        "path": "./pseudonymization-dedup/xcur/build_corpus.py",
+        "sha256": "769caf22eca96ee926526bb44fe5a87b4cb82095be677029f1db516e7ea28685"
+      }
+    ],
+    "created_utc": "2026-10-05T04:05:45.463132+00:00",
+    "peak_rss_bytes": 755204096,
+    "reference_result_sha256": "b0a7e25ea2739b9a17de34b15a86083aeb503664bfe00aaf8e0e80ee4a2630ab",
+    "tab_inputs": [
+      {
+        "bytes": 12643092,
+        "path": "./data/20261001/tab/echr_dev.json",
+        "sha256": "8c3c7306f46b8d54debeb38ae11d8b0b8bcf4bdccbc3b6f13c12ad7be16893ec"
+      },
+      {
+        "bytes": 13103290,
+        "path": "./data/20261001/tab/echr_test.json",
+        "sha256": "cd0f0f15f84a8739654c7cf30c6be8ce27b051ef73974d39d792a0cb8c846379"
+      },
+      {
+        "bytes": 47503662,
+        "path": "./data/20261001/tab/echr_train.json",
+        "sha256": "4aba41f8ac305ff9e93dd6f0bbc16756e57e9ace396c827931fab70e18d8c6a6"
+      }
+    ]
+  },
+  "rows": {
+    "0.5": {
+      "MASK": {
+        "candidate_edges": 592,
+        "copies_detected": 397,
+        "copies_total": 400,
+        "distinct_cases_lost": 48,
+        "lost_case_ids": [
+          26,
+          305,
+          389,
+          396,
+          400,
+          434,
+          436,
+          442,
+          615,
+          655,
+          682,
+          693,
+          755,
+          762,
+          765,
+          767,
+          770,
+          818,
+          820,
+          828,
+          829,
+          834,
+          838,
+          840,
+          849,
+          1055,
+          1081,
+          1086,
+          1087,
+          1089,
+          1093,
+          1094,
+          1095,
+          1125,
+          1127,
+          1137,
+          1186,
+          1193,
+          1213,
+          1214,
+          1217,
+          1218,
+          1226,
+          1227,
+          1228,
+          1232,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.9925,
+        "pipeline_recall": 0.9925,
+        "retained_records": 1223
+      },
+      "RAW": {
+        "candidate_edges": 526,
+        "copies_detected": 397,
+        "copies_total": 400,
+        "distinct_cases_lost": 41,
+        "lost_case_ids": [
+          305,
+          389,
+          396,
+          400,
+          434,
+          436,
+          442,
+          615,
+          693,
+          755,
+          762,
+          765,
+          767,
+          770,
+          818,
+          820,
+          828,
+          829,
+          834,
+          838,
+          840,
+          849,
+          1055,
+          1068,
+          1086,
+          1089,
+          1094,
+          1095,
+          1125,
+          1127,
+          1137,
+          1186,
+          1193,
+          1213,
+          1218,
+          1222,
+          1228,
+          1232,
+          1246,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.9925,
+        "pipeline_recall": 0.9925,
+        "retained_records": 1230
+      },
+      "SUR-CORPUS": {
+        "candidate_edges": 498,
+        "copies_detected": 397,
+        "copies_total": 400,
+        "distinct_cases_lost": 33,
+        "lost_case_ids": [
+          305,
+          389,
+          396,
+          400,
+          434,
+          436,
+          442,
+          615,
+          693,
+          755,
+          762,
+          765,
+          818,
+          820,
+          828,
+          829,
+          834,
+          838,
+          840,
+          849,
+          1055,
+          1086,
+          1089,
+          1095,
+          1125,
+          1127,
+          1137,
+          1186,
+          1218,
+          1228,
+          1232,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.9925,
+        "pipeline_recall": 0.9925,
+        "retained_records": 1238
+      },
+      "SUR-DOC": {
+        "candidate_edges": 187,
+        "copies_detected": 185,
+        "copies_total": 400,
+        "distinct_cases_lost": 2,
+        "lost_case_ids": [
+          434,
+          615
+        ],
+        "pair_recall": 0.4625,
+        "pipeline_recall": 0.4625,
+        "retained_records": 1481
+      },
+      "TYPE": {
+        "candidate_edges": 590,
+        "copies_detected": 397,
+        "copies_total": 400,
+        "distinct_cases_lost": 48,
+        "lost_case_ids": [
+          26,
+          305,
+          389,
+          396,
+          400,
+          434,
+          436,
+          442,
+          615,
+          655,
+          682,
+          693,
+          755,
+          762,
+          765,
+          767,
+          770,
+          818,
+          820,
+          828,
+          829,
+          834,
+          838,
+          840,
+          849,
+          1055,
+          1081,
+          1086,
+          1087,
+          1089,
+          1093,
+          1094,
+          1095,
+          1125,
+          1127,
+          1137,
+          1186,
+          1193,
+          1213,
+          1214,
+          1217,
+          1218,
+          1226,
+          1227,
+          1228,
+          1232,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.9925,
+        "pipeline_recall": 0.9925,
+        "retained_records": 1223
+      }
+    },
+    "0.6": {
+      "MASK": {
+        "candidate_edges": 495,
+        "copies_detected": 391,
+        "copies_total": 400,
+        "distinct_cases_lost": 37,
+        "lost_case_ids": [
+          305,
+          389,
+          396,
+          400,
+          434,
+          442,
+          615,
+          682,
+          693,
+          755,
+          762,
+          765,
+          770,
+          818,
+          820,
+          828,
+          829,
+          834,
+          838,
+          840,
+          849,
+          1055,
+          1081,
+          1089,
+          1094,
+          1095,
+          1125,
+          1127,
+          1137,
+          1213,
+          1217,
+          1218,
+          1227,
+          1228,
+          1232,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.9775,
+        "pipeline_recall": 0.9775,
+        "retained_records": 1239
+      },
+      "RAW": {
+        "candidate_edges": 463,
+        "copies_detected": 390,
+        "copies_total": 400,
+        "distinct_cases_lost": 24,
+        "lost_case_ids": [
+          305,
+          389,
+          396,
+          400,
+          434,
+          442,
+          615,
+          693,
+          755,
+          765,
+          828,
+          829,
+          834,
+          840,
+          849,
+          1055,
+          1089,
+          1125,
+          1127,
+          1137,
+          1222,
+          1232,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.975,
+        "pipeline_recall": 0.975,
+        "retained_records": 1254
+      },
+      "SUR-CORPUS": {
+        "candidate_edges": 427,
+        "copies_detected": 390,
+        "copies_total": 400,
+        "distinct_cases_lost": 18,
+        "lost_case_ids": [
+          305,
+          389,
+          434,
+          615,
+          755,
+          765,
+          828,
+          834,
+          840,
+          849,
+          1055,
+          1089,
+          1125,
+          1127,
+          1137,
+          1232,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.975,
+        "pipeline_recall": 0.975,
+        "retained_records": 1260
+      },
+      "SUR-DOC": {
+        "candidate_edges": 87,
+        "copies_detected": 87,
+        "copies_total": 400,
+        "distinct_cases_lost": 0,
+        "lost_case_ids": [],
+        "pair_recall": 0.2175,
+        "pipeline_recall": 0.2175,
+        "retained_records": 1581
+      },
+      "TYPE": {
+        "candidate_edges": 495,
+        "copies_detected": 391,
+        "copies_total": 400,
+        "distinct_cases_lost": 37,
+        "lost_case_ids": [
+          305,
+          389,
+          396,
+          400,
+          434,
+          442,
+          615,
+          682,
+          693,
+          755,
+          762,
+          765,
+          770,
+          818,
+          820,
+          828,
+          829,
+          834,
+          838,
+          840,
+          849,
+          1055,
+          1081,
+          1089,
+          1094,
+          1095,
+          1125,
+          1127,
+          1137,
+          1213,
+          1217,
+          1218,
+          1227,
+          1228,
+          1232,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.9775,
+        "pipeline_recall": 0.9775,
+        "retained_records": 1239
+      }
+    },
+    "0.7": {
+      "MASK": {
+        "candidate_edges": 405,
+        "copies_detected": 363,
+        "copies_total": 400,
+        "distinct_cases_lost": 25,
+        "lost_case_ids": [
+          305,
+          389,
+          434,
+          615,
+          693,
+          755,
+          762,
+          765,
+          770,
+          820,
+          828,
+          829,
+          834,
+          840,
+          849,
+          1089,
+          1094,
+          1095,
+          1125,
+          1127,
+          1137,
+          1228,
+          1232,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.9075,
+        "pipeline_recall": 0.9075,
+        "retained_records": 1280
+      },
+      "RAW": {
+        "candidate_edges": 387,
+        "copies_detected": 364,
+        "copies_total": 400,
+        "distinct_cases_lost": 11,
+        "lost_case_ids": [
+          305,
+          389,
+          400,
+          755,
+          765,
+          834,
+          1125,
+          1127,
+          1137,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.91,
+        "pipeline_recall": 0.91,
+        "retained_records": 1293
+      },
+      "SUR-CORPUS": {
+        "candidate_edges": 371,
+        "copies_detected": 364,
+        "copies_total": 400,
+        "distinct_cases_lost": 5,
+        "lost_case_ids": [
+          765,
+          834,
+          1127,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.91,
+        "pipeline_recall": 0.91,
+        "retained_records": 1299
+      },
+      "SUR-DOC": {
+        "candidate_edges": 17,
+        "copies_detected": 17,
+        "copies_total": 400,
+        "distinct_cases_lost": 0,
+        "lost_case_ids": [],
+        "pair_recall": 0.0425,
+        "pipeline_recall": 0.0425,
+        "retained_records": 1651
+      },
+      "TYPE": {
+        "candidate_edges": 405,
+        "copies_detected": 363,
+        "copies_total": 400,
+        "distinct_cases_lost": 25,
+        "lost_case_ids": [
+          305,
+          389,
+          434,
+          615,
+          693,
+          755,
+          762,
+          765,
+          770,
+          820,
+          828,
+          829,
+          834,
+          840,
+          849,
+          1089,
+          1094,
+          1095,
+          1125,
+          1127,
+          1137,
+          1228,
+          1232,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.9075,
+        "pipeline_recall": 0.9075,
+        "retained_records": 1280
+      }
+    },
+    "0.8": {
+      "MASK": {
+        "candidate_edges": 318,
+        "copies_detected": 305,
+        "copies_total": 400,
+        "distinct_cases_lost": 9,
+        "lost_case_ids": [
+          755,
+          762,
+          765,
+          828,
+          834,
+          1127,
+          1232,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.7625,
+        "pipeline_recall": 0.7625,
+        "retained_records": 1354
+      },
+      "RAW": {
+        "candidate_edges": 309,
+        "copies_detected": 303,
+        "copies_total": 400,
+        "distinct_cases_lost": 5,
+        "lost_case_ids": [
+          389,
+          765,
+          1127,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.7575,
+        "pipeline_recall": 0.7575,
+        "retained_records": 1360
+      },
+      "SUR-CORPUS": {
+        "candidate_edges": 304,
+        "copies_detected": 303,
+        "copies_total": 400,
+        "distinct_cases_lost": 1,
+        "lost_case_ids": [
+          765
+        ],
+        "pair_recall": 0.7575,
+        "pipeline_recall": 0.7575,
+        "retained_records": 1364
+      },
+      "SUR-DOC": {
+        "candidate_edges": 4,
+        "copies_detected": 4,
+        "copies_total": 400,
+        "distinct_cases_lost": 0,
+        "lost_case_ids": [],
+        "pair_recall": 0.01,
+        "pipeline_recall": 0.01,
+        "retained_records": 1664
+      },
+      "TYPE": {
+        "candidate_edges": 318,
+        "copies_detected": 306,
+        "copies_total": 400,
+        "distinct_cases_lost": 9,
+        "lost_case_ids": [
+          755,
+          762,
+          765,
+          828,
+          834,
+          1127,
+          1232,
+          1256,
+          1259
+        ],
+        "pair_recall": 0.765,
+        "pipeline_recall": 0.765,
+        "retained_records": 1353
+      }
+    },
+    "0.9": {
+      "MASK": {
+        "candidate_edges": 179,
+        "copies_detected": 177,
+        "copies_total": 400,
+        "distinct_cases_lost": 2,
+        "lost_case_ids": [
+          765,
+          1259
+        ],
+        "pair_recall": 0.4425,
+        "pipeline_recall": 0.4425,
+        "retained_records": 1489
+      },
+      "RAW": {
+        "candidate_edges": 176,
+        "copies_detected": 176,
+        "copies_total": 400,
+        "distinct_cases_lost": 0,
+        "lost_case_ids": [],
+        "pair_recall": 0.44,
+        "pipeline_recall": 0.44,
+        "retained_records": 1492
+      },
+      "SUR-CORPUS": {
+        "candidate_edges": 176,
+        "copies_detected": 176,
+        "copies_total": 400,
+        "distinct_cases_lost": 0,
+        "lost_case_ids": [],
+        "pair_recall": 0.44,
+        "pipeline_recall": 0.44,
+        "retained_records": 1492
+      },
+      "SUR-DOC": {
+        "candidate_edges": 0,
+        "copies_detected": 0,
+        "copies_total": 400,
+        "distinct_cases_lost": 0,
+        "lost_case_ids": [],
+        "pair_recall": 0.0,
+        "pipeline_recall": 0.0,
+        "retained_records": 1668
+      },
+      "TYPE": {
+        "candidate_edges": 179,
+        "copies_detected": 177,
+        "copies_total": 400,
+        "distinct_cases_lost": 2,
+        "lost_case_ids": [
+          765,
+          1259
+        ],
+        "pair_recall": 0.4425,
+        "pipeline_recall": 0.4425,
+        "retained_records": 1489
+      }
+    }
+  },
+  "shingle_id_bits": 32,
+  "shingle_words": 5,
+  "status": "exploratory_follow_up_on_seen_TAB_data",
+  "thresholds": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ]
+}

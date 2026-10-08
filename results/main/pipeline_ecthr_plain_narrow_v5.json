@@ -1,0 +1,354 @@
+{
+ "results": {
+  "RAW|0|28x4": {
+   "removed": 321,
+   "recall": 1.0,
+   "recall_touched": 1.0
+  },
+  "RAW|0|16x7": {
+   "removed": 69,
+   "recall": 0.987,
+   "recall_touched": 1.0
+  },
+  "RAW|0|14x8": {
+   "removed": 51,
+   "recall": 0.969,
+   "recall_touched": 1.0
+  },
+  "RAW|0|8x14": {
+   "removed": 18,
+   "recall": 0.794,
+   "recall_touched": 0.9387755102040817
+  },
+  "RAW|0|7x16": {
+   "removed": 14,
+   "recall": 0.703,
+   "recall_touched": 0.8163265306122449
+  },
+  "RAW|1|28x4": {
+   "removed": 335,
+   "recall": 0.999,
+   "recall_touched": 1.0
+  },
+  "RAW|1|16x7": {
+   "removed": 70,
+   "recall": 0.975,
+   "recall_touched": 1.0
+  },
+  "RAW|1|14x8": {
+   "removed": 55,
+   "recall": 0.964,
+   "recall_touched": 1.0
+  },
+  "RAW|1|8x14": {
+   "removed": 17,
+   "recall": 0.796,
+   "recall_touched": 0.8979591836734694
+  },
+  "RAW|1|7x16": {
+   "removed": 16,
+   "recall": 0.714,
+   "recall_touched": 0.6938775510204082
+  },
+  "RAW|2|28x4": {
+   "removed": 347,
+   "recall": 0.998,
+   "recall_touched": 1.0
+  },
+  "RAW|2|16x7": {
+   "removed": 80,
+   "recall": 0.979,
+   "recall_touched": 1.0
+  },
+  "RAW|2|14x8": {
+   "removed": 54,
+   "recall": 0.968,
+   "recall_touched": 0.9795918367346939
+  },
+  "RAW|2|8x14": {
+   "removed": 21,
+   "recall": 0.795,
+   "recall_touched": 0.7755102040816326
+  },
+  "RAW|2|7x16": {
+   "removed": 16,
+   "recall": 0.704,
+   "recall_touched": 0.6938775510204082
+  },
+  "TYPE|0|28x4": {
+   "removed": 321,
+   "recall": 1.0,
+   "recall_touched": 1.0
+  },
+  "TYPE|0|16x7": {
+   "removed": 69,
+   "recall": 0.987,
+   "recall_touched": 1.0
+  },
+  "TYPE|0|14x8": {
+   "removed": 51,
+   "recall": 0.969,
+   "recall_touched": 1.0
+  },
+  "TYPE|0|8x14": {
+   "removed": 18,
+   "recall": 0.794,
+   "recall_touched": 0.9387755102040817
+  },
+  "TYPE|0|7x16": {
+   "removed": 14,
+   "recall": 0.703,
+   "recall_touched": 0.8163265306122449
+  },
+  "TYPE|1|28x4": {
+   "removed": 335,
+   "recall": 0.999,
+   "recall_touched": 1.0
+  },
+  "TYPE|1|16x7": {
+   "removed": 70,
+   "recall": 0.975,
+   "recall_touched": 1.0
+  },
+  "TYPE|1|14x8": {
+   "removed": 55,
+   "recall": 0.964,
+   "recall_touched": 1.0
+  },
+  "TYPE|1|8x14": {
+   "removed": 17,
+   "recall": 0.796,
+   "recall_touched": 0.8979591836734694
+  },
+  "TYPE|1|7x16": {
+   "removed": 16,
+   "recall": 0.714,
+   "recall_touched": 0.6938775510204082
+  },
+  "TYPE|2|28x4": {
+   "removed": 348,
+   "recall": 0.998,
+   "recall_touched": 1.0
+  },
+  "TYPE|2|16x7": {
+   "removed": 80,
+   "recall": 0.979,
+   "recall_touched": 1.0
+  },
+  "TYPE|2|14x8": {
+   "removed": 54,
+   "recall": 0.968,
+   "recall_touched": 0.9795918367346939
+  },
+  "TYPE|2|8x14": {
+   "removed": 21,
+   "recall": 0.795,
+   "recall_touched": 0.7755102040816326
+  },
+  "TYPE|2|7x16": {
+   "removed": 16,
+   "recall": 0.704,
+   "recall_touched": 0.6938775510204082
+  },
+  "SUR-DOC|0|28x4": {
+   "removed": 321,
+   "recall": 1.0,
+   "recall_touched": 1.0
+  },
+  "SUR-DOC|0|16x7": {
+   "removed": 69,
+   "recall": 0.987,
+   "recall_touched": 1.0
+  },
+  "SUR-DOC|0|14x8": {
+   "removed": 51,
+   "recall": 0.968,
+   "recall_touched": 0.9795918367346939
+  },
+  "SUR-DOC|0|8x14": {
+   "removed": 18,
+   "recall": 0.793,
+   "recall_touched": 0.9183673469387755
+  },
+  "SUR-DOC|0|7x16": {
+   "removed": 14,
+   "recall": 0.701,
+   "recall_touched": 0.7755102040816326
+  },
+  "SUR-DOC|1|28x4": {
+   "removed": 335,
+   "recall": 0.999,
+   "recall_touched": 1.0
+  },
+  "SUR-DOC|1|16x7": {
+   "removed": 70,
+   "recall": 0.975,
+   "recall_touched": 1.0
+  },
+  "SUR-DOC|1|14x8": {
+   "removed": 55,
+   "recall": 0.963,
+   "recall_touched": 0.9795918367346939
+  },
+  "SUR-DOC|1|8x14": {
+   "removed": 17,
+   "recall": 0.795,
+   "recall_touched": 0.8775510204081632
+  },
+  "SUR-DOC|1|7x16": {
+   "removed": 16,
+   "recall": 0.713,
+   "recall_touched": 0.673469387755102
+  },
+  "SUR-DOC|2|28x4": {
+   "removed": 348,
+   "recall": 0.998,
+   "recall_touched": 1.0
+  },
+  "SUR-DOC|2|16x7": {
+   "removed": 80,
+   "recall": 0.979,
+   "recall_touched": 1.0
+  },
+  "SUR-DOC|2|14x8": {
+   "removed": 54,
+   "recall": 0.968,
+   "recall_touched": 0.9795918367346939
+  },
+  "SUR-DOC|2|8x14": {
+   "removed": 21,
+   "recall": 0.795,
+   "recall_touched": 0.7755102040816326
+  },
+  "SUR-DOC|2|7x16": {
+   "removed": 16,
+   "recall": 0.704,
+   "recall_touched": 0.6938775510204082
+  },
+  "HASH-ENTITY|0|28x4": {
+   "removed": 321,
+   "recall": 1.0,
+   "recall_touched": 1.0
+  },
+  "HASH-ENTITY|0|16x7": {
+   "removed": 69,
+   "recall": 0.987,
+   "recall_touched": 1.0
+  },
+  "HASH-ENTITY|0|14x8": {
+   "removed": 51,
+   "recall": 0.969,
+   "recall_touched": 1.0
+  },
+  "HASH-ENTITY|0|8x14": {
+   "removed": 18,
+   "recall": 0.793,
+   "recall_touched": 0.9183673469387755
+  },
+  "HASH-ENTITY|0|7x16": {
+   "removed": 14,
+   "recall": 0.702,
+   "recall_touched": 0.7959183673469388
+  },
+  "HASH-ENTITY|1|28x4": {
+   "removed": 335,
+   "recall": 0.999,
+   "recall_touched": 1.0
+  },
+  "HASH-ENTITY|1|16x7": {
+   "removed": 70,
+   "recall": 0.975,
+   "recall_touched": 1.0
+  },
+  "HASH-ENTITY|1|14x8": {
+   "removed": 55,
+   "recall": 0.964,
+   "recall_touched": 1.0
+  },
+  "HASH-ENTITY|1|8x14": {
+   "removed": 17,
+   "recall": 0.795,
+   "recall_touched": 0.8775510204081632
+  },
+  "HASH-ENTITY|1|7x16": {
+   "removed": 16,
+   "recall": 0.712,
+   "recall_touched": 0.6530612244897959
+  },
+  "HASH-ENTITY|2|28x4": {
+   "removed": 348,
+   "recall": 0.998,
+   "recall_touched": 1.0
+  },
+  "HASH-ENTITY|2|16x7": {
+   "removed": 80,
+   "recall": 0.978,
+   "recall_touched": 0.9795918367346939
+  },
+  "HASH-ENTITY|2|14x8": {
+   "removed": 54,
+   "recall": 0.966,
+   "recall_touched": 0.9387755102040817
+  },
+  "HASH-ENTITY|2|8x14": {
+   "removed": 21,
+   "recall": 0.795,
+   "recall_touched": 0.7755102040816326
+  },
+  "HASH-ENTITY|2|7x16": {
+   "removed": 16,
+   "recall": 0.704,
+   "recall_touched": 0.6938775510204082
+  }
+ },
+ "boot": {
+  "TYPE": {
+   "d_removed": 0.0,
+   "d_removed_ci": [
+    0.0,
+    0.0
+   ],
+   "d_recall": 0.0,
+   "d_recall_ci": [
+    0.0,
+    0.0
+   ],
+   "n_clusters": 10979,
+   "added": 0,
+   "restored": 0
+  },
+  "SUR-DOC": {
+   "d_removed": 0.0,
+   "d_removed_ci": [
+    0.0,
+    0.0
+   ],
+   "d_recall": -0.001,
+   "d_recall_ci": [
+    -0.0030834064541804835,
+    0.0
+   ],
+   "n_clusters": 10979,
+   "added": 0,
+   "restored": 0
+  },
+  "HASH-ENTITY": {
+   "d_removed": 0.0,
+   "d_removed_ci": [
+    0.0,
+    0.0
+   ],
+   "d_recall": 0.0,
+   "d_recall_ci": [
+    0.0,
+    0.0
+   ],
+   "n_clusters": 10979,
+   "added": 0,
+   "restored": 0
+  }
+ },
+ "n_orig": 10999,
+ "n_copies": 1000,
+ "n_copies_touched": 49
+}

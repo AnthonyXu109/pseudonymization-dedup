@@ -1,0 +1,264 @@
+{
+ "results": {
+  "RAW|0|28x4": {
+   "removed": 1351,
+   "recall": 0.9835,
+   "recall_touched": 0.9835
+  },
+  "RAW|0|16x7": {
+   "removed": 603,
+   "recall": 0.908,
+   "recall_touched": 0.908
+  },
+  "RAW|0|14x8": {
+   "removed": 496,
+   "recall": 0.878,
+   "recall_touched": 0.878
+  },
+  "RAW|0|8x14": {
+   "removed": 220,
+   "recall": 0.5725,
+   "recall_touched": 0.5725
+  },
+  "RAW|0|7x16": {
+   "removed": 166,
+   "recall": 0.4955,
+   "recall_touched": 0.4955
+  },
+  "RAW|1|28x4": {
+   "removed": 1371,
+   "recall": 0.983,
+   "recall_touched": 0.983
+  },
+  "RAW|1|16x7": {
+   "removed": 608,
+   "recall": 0.9115,
+   "recall_touched": 0.9115
+  },
+  "RAW|1|14x8": {
+   "removed": 491,
+   "recall": 0.8655,
+   "recall_touched": 0.8655
+  },
+  "RAW|1|8x14": {
+   "removed": 198,
+   "recall": 0.591,
+   "recall_touched": 0.591
+  },
+  "RAW|1|7x16": {
+   "removed": 162,
+   "recall": 0.5005,
+   "recall_touched": 0.5005
+  },
+  "RAW|2|28x4": {
+   "removed": 1332,
+   "recall": 0.987,
+   "recall_touched": 0.987
+  },
+  "RAW|2|16x7": {
+   "removed": 597,
+   "recall": 0.9125,
+   "recall_touched": 0.9125
+  },
+  "RAW|2|14x8": {
+   "removed": 500,
+   "recall": 0.8655,
+   "recall_touched": 0.8655
+  },
+  "RAW|2|8x14": {
+   "removed": 193,
+   "recall": 0.575,
+   "recall_touched": 0.575
+  },
+  "RAW|2|7x16": {
+   "removed": 150,
+   "recall": 0.497,
+   "recall_touched": 0.497
+  },
+  "MASK|0|28x4": {
+   "removed": 1686,
+   "recall": 0.985,
+   "recall_touched": 0.985
+  },
+  "MASK|0|16x7": {
+   "removed": 1061,
+   "recall": 0.9295,
+   "recall_touched": 0.9295
+  },
+  "MASK|0|14x8": {
+   "removed": 960,
+   "recall": 0.8795,
+   "recall_touched": 0.8795
+  },
+  "MASK|0|8x14": {
+   "removed": 617,
+   "recall": 0.628,
+   "recall_touched": 0.628
+  },
+  "MASK|0|7x16": {
+   "removed": 566,
+   "recall": 0.5265,
+   "recall_touched": 0.5265
+  },
+  "MASK|1|28x4": {
+   "removed": 1690,
+   "recall": 0.987,
+   "recall_touched": 0.987
+  },
+  "MASK|1|16x7": {
+   "removed": 1043,
+   "recall": 0.9265,
+   "recall_touched": 0.9265
+  },
+  "MASK|1|14x8": {
+   "removed": 958,
+   "recall": 0.898,
+   "recall_touched": 0.898
+  },
+  "MASK|1|8x14": {
+   "removed": 628,
+   "recall": 0.6275,
+   "recall_touched": 0.6275
+  },
+  "MASK|1|7x16": {
+   "removed": 569,
+   "recall": 0.5495,
+   "recall_touched": 0.5495
+  },
+  "MASK|2|28x4": {
+   "removed": 1709,
+   "recall": 0.9855,
+   "recall_touched": 0.9855
+  },
+  "MASK|2|16x7": {
+   "removed": 1051,
+   "recall": 0.9275,
+   "recall_touched": 0.9275
+  },
+  "MASK|2|14x8": {
+   "removed": 949,
+   "recall": 0.8975,
+   "recall_touched": 0.8975
+  },
+  "MASK|2|8x14": {
+   "removed": 614,
+   "recall": 0.613,
+   "recall_touched": 0.613
+  },
+  "MASK|2|7x16": {
+   "removed": 559,
+   "recall": 0.5615,
+   "recall_touched": 0.5615
+  },
+  "SUR-DOC|0|28x4": {
+   "removed": 974,
+   "recall": 0.6755,
+   "recall_touched": 0.6755
+  },
+  "SUR-DOC|0|16x7": {
+   "removed": 310,
+   "recall": 0.292,
+   "recall_touched": 0.292
+  },
+  "SUR-DOC|0|14x8": {
+   "removed": 231,
+   "recall": 0.225,
+   "recall_touched": 0.225
+  },
+  "SUR-DOC|0|8x14": {
+   "removed": 41,
+   "recall": 0.063,
+   "recall_touched": 0.063
+  },
+  "SUR-DOC|0|7x16": {
+   "removed": 19,
+   "recall": 0.0385,
+   "recall_touched": 0.0385
+  },
+  "SUR-DOC|1|28x4": {
+   "removed": 992,
+   "recall": 0.6705,
+   "recall_touched": 0.6705
+  },
+  "SUR-DOC|1|16x7": {
+   "removed": 350,
+   "recall": 0.3,
+   "recall_touched": 0.3
+  },
+  "SUR-DOC|1|14x8": {
+   "removed": 221,
+   "recall": 0.222,
+   "recall_touched": 0.222
+  },
+  "SUR-DOC|1|8x14": {
+   "removed": 33,
+   "recall": 0.056,
+   "recall_touched": 0.056
+  },
+  "SUR-DOC|1|7x16": {
+   "removed": 27,
+   "recall": 0.0375,
+   "recall_touched": 0.0375
+  },
+  "SUR-DOC|2|28x4": {
+   "removed": 980,
+   "recall": 0.6735,
+   "recall_touched": 0.6735
+  },
+  "SUR-DOC|2|16x7": {
+   "removed": 316,
+   "recall": 0.291,
+   "recall_touched": 0.291
+  },
+  "SUR-DOC|2|14x8": {
+   "removed": 225,
+   "recall": 0.2205,
+   "recall_touched": 0.2205
+  },
+  "SUR-DOC|2|8x14": {
+   "removed": 34,
+   "recall": 0.056,
+   "recall_touched": 0.056
+  },
+  "SUR-DOC|2|7x16": {
+   "removed": 18,
+   "recall": 0.043,
+   "recall_touched": 0.043
+  }
+ },
+ "boot": {
+  "MASK": {
+   "d_removed": 464.0,
+   "d_removed_ci": [
+    285.0,
+    750.0249999999999
+   ],
+   "d_recall": 0.0015,
+   "d_recall_ci": [
+    -0.011675572065992427,
+    0.013590914292534713
+   ],
+   "n_clusters": 89447,
+   "added": 495,
+   "restored": 31
+  },
+  "SUR-DOC": {
+   "d_removed": -265.0,
+   "d_removed_ci": [
+    -318.025,
+    -217.97500000000014
+   ],
+   "d_recall": -0.653,
+   "d_recall_ci": [
+    -0.6739892930961375,
+    -0.6310163516702415
+   ],
+   "n_clusters": 90003,
+   "added": 22,
+   "restored": 287
+  }
+ },
+ "n_orig": 90293,
+ "n_copies": 2000,
+ "n_copies_touched": 2000
+}

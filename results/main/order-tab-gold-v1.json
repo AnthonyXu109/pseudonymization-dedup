@@ -1,0 +1,182 @@
+{
+  "analysis": "controlled_internal_decision_order_fixed_document_release",
+  "contrasts": {
+    "SUR-CORPUS_minus_RAW": {
+      "copy_unit_count": 400,
+      "lost_case_count_delta": {
+        "bootstrap_clusters": 1257,
+        "bootstrap_replicates": 2000,
+        "ci95": [
+          -14,
+          -1
+        ],
+        "estimate": -6
+      },
+      "original_case_count": 1268,
+      "pipeline_recall_delta": {
+        "bootstrap_clusters": 399,
+        "bootstrap_replicates": 2000,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "estimate": 0.0
+      }
+    },
+    "SUR-DOC_minus_RAW": {
+      "copy_unit_count": 400,
+      "lost_case_count_delta": {
+        "bootstrap_clusters": 1257,
+        "bootstrap_replicates": 2000,
+        "ci95": [
+          -28,
+          -1
+        ],
+        "estimate": -11
+      },
+      "original_case_count": 1268,
+      "pipeline_recall_delta": {
+        "bootstrap_clusters": 399,
+        "bootstrap_replicates": 2000,
+        "ci95": [
+          -0.899749373433584,
+          -0.8325
+        ],
+        "estimate": -0.8675
+      }
+    }
+  },
+  "fixed_release": "SUR-DOC",
+  "gold_span_mode": "first_annotator",
+  "normalization": "plain",
+  "provenance": {
+    "code": [
+      {
+        "path": "./run_order.py",
+        "sha256": "c86ee37a7e7e0c90b0193441b3eb5ddf7f4672387cf2eae7e1a68e5766fcbd07"
+      },
+      {
+        "path": "./analysis.py",
+        "sha256": "31d69fbed9dc3b98ce600f35931d7668e3e8c3b6d787257acd7862495e2bd6c5"
+      },
+      {
+        "path": "./PROTOCOL.md",
+        "sha256": "0870a1fa32eb3e6378e33562b1920f454d8caf178bdb7bed7237b83e41b9ac57"
+      },
+      {
+        "path": "./pseudonymization-dedup/xcur/common.py",
+        "sha256": "e13464900df279a194656d5416af9b4134f7faea1c21d757ad175ef2f6504877"
+      },
+      {
+        "path": "./pseudonymization-dedup/xcur/build_corpus.py",
+        "sha256": "769caf22eca96ee926526bb44fe5a87b4cb82095be677029f1db516e7ea28685"
+      },
+      {
+        "path": "./pseudonymization-dedup/xcur/evalcore.py",
+        "sha256": "f3e653a8a4195584a0649fa1eea37a68faa96e205c26232b4a52658f57451210"
+      }
+    ],
+    "created_utc": "2026-10-02T07:02:31.158387+00:00",
+    "peak_rss_bytes": 594460672,
+    "random_seed": 20261001,
+    "source_candidate_pdf_sha256": "b982b9f06ecfdb7ec17bad52a83fe41680ef00fed578db6376b5d88d724c5572",
+    "tab_inputs": [
+      {
+        "bytes": 12643092,
+        "path": "./data/20261001/tab/echr_dev.json",
+        "sha256": "8c3c7306f46b8d54debeb38ae11d8b0b8bcf4bdccbc3b6f13c12ad7be16893ec"
+      },
+      {
+        "bytes": 13103290,
+        "path": "./data/20261001/tab/echr_test.json",
+        "sha256": "cd0f0f15f84a8739654c7cf30c6be8ce27b051ef73974d39d792a0cb8c846379"
+      },
+      {
+        "bytes": 47503662,
+        "path": "./data/20261001/tab/echr_train.json",
+        "sha256": "4aba41f8ac305ff9e93dd6f0bbc16756e57e9ace396c827931fab70e18d8c6a6"
+      }
+    ]
+  },
+  "retention_policy": "retain_each_distinct_TAB_case; merge_copies_of_same_case",
+  "rows": {
+    "RAW": {
+      "candidate_edges": 387,
+      "copies_detected_in_component": 364,
+      "copies_total": 400,
+      "decision": "RAW",
+      "direct_pair_recall": 0.91,
+      "distinct_cases_lost": 11,
+      "lost_case_ids": [
+        305,
+        389,
+        400,
+        755,
+        765,
+        834,
+        1125,
+        1127,
+        1137,
+        1256,
+        1259
+      ],
+      "pipeline_recall": 0.91,
+      "records_retained": 1293,
+      "release": "SUR-DOC",
+      "released_cross_case_person_string": {
+        "correct": 0,
+        "precision": null,
+        "predicted": 0,
+        "recall": 0.0,
+        "true": 36835
+      }
+    },
+    "SUR-CORPUS": {
+      "candidate_edges": 371,
+      "copies_detected_in_component": 364,
+      "copies_total": 400,
+      "decision": "SUR-CORPUS",
+      "direct_pair_recall": 0.91,
+      "distinct_cases_lost": 5,
+      "lost_case_ids": [
+        765,
+        834,
+        1127,
+        1256,
+        1259
+      ],
+      "pipeline_recall": 0.91,
+      "records_retained": 1299,
+      "release": "SUR-DOC",
+      "released_cross_case_person_string": {
+        "correct": 0,
+        "precision": null,
+        "predicted": 0,
+        "recall": 0.0,
+        "true": 36950
+      }
+    },
+    "SUR-DOC": {
+      "candidate_edges": 17,
+      "copies_detected_in_component": 17,
+      "copies_total": 400,
+      "decision": "SUR-DOC",
+      "direct_pair_recall": 0.0425,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "pipeline_recall": 0.0425,
+      "records_retained": 1651,
+      "release": "SUR-DOC",
+      "released_cross_case_person_string": {
+        "correct": 0,
+        "precision": null,
+        "predicted": 0,
+        "recall": 0.0,
+        "true": 54891
+      }
+    }
+  },
+  "shingle_words": 5,
+  "status": "follow_up_on_seen_data",
+  "threshold": 0.7
+}

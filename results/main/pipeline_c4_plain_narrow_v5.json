@@ -1,0 +1,293 @@
+{
+ "results": {
+  "RAW|0|28x4": {
+   "removed": 1188,
+   "recall": 0.984
+  },
+  "RAW|0|16x7": {
+   "removed": 506,
+   "recall": 0.9065
+  },
+  "RAW|0|14x8": {
+   "removed": 403,
+   "recall": 0.857
+  },
+  "RAW|0|8x14": {
+   "removed": 180,
+   "recall": 0.5845
+  },
+  "RAW|0|7x16": {
+   "removed": 137,
+   "recall": 0.49
+  },
+  "RAW|1|28x4": {
+   "removed": 1177,
+   "recall": 0.9845
+  },
+  "RAW|1|16x7": {
+   "removed": 510,
+   "recall": 0.909
+  },
+  "RAW|1|14x8": {
+   "removed": 413,
+   "recall": 0.8635
+  },
+  "RAW|1|8x14": {
+   "removed": 162,
+   "recall": 0.5785
+  },
+  "RAW|1|7x16": {
+   "removed": 130,
+   "recall": 0.4945
+  },
+  "RAW|2|28x4": {
+   "removed": 1153,
+   "recall": 0.987
+  },
+  "RAW|2|16x7": {
+   "removed": 504,
+   "recall": 0.9115
+  },
+  "RAW|2|14x8": {
+   "removed": 421,
+   "recall": 0.8675
+  },
+  "RAW|2|8x14": {
+   "removed": 164,
+   "recall": 0.571
+  },
+  "RAW|2|7x16": {
+   "removed": 123,
+   "recall": 0.493
+  },
+  "TYPE|0|28x4": {
+   "removed": 1196,
+   "recall": 0.984
+  },
+  "TYPE|0|16x7": {
+   "removed": 514,
+   "recall": 0.907
+  },
+  "TYPE|0|14x8": {
+   "removed": 420,
+   "recall": 0.854
+  },
+  "TYPE|0|8x14": {
+   "removed": 182,
+   "recall": 0.5845
+  },
+  "TYPE|0|7x16": {
+   "removed": 138,
+   "recall": 0.491
+  },
+  "TYPE|1|28x4": {
+   "removed": 1188,
+   "recall": 0.9845
+  },
+  "TYPE|1|16x7": {
+   "removed": 521,
+   "recall": 0.9085
+  },
+  "TYPE|1|14x8": {
+   "removed": 433,
+   "recall": 0.8645
+  },
+  "TYPE|1|8x14": {
+   "removed": 167,
+   "recall": 0.577
+  },
+  "TYPE|1|7x16": {
+   "removed": 132,
+   "recall": 0.491
+  },
+  "TYPE|2|28x4": {
+   "removed": 1153,
+   "recall": 0.987
+  },
+  "TYPE|2|16x7": {
+   "removed": 513,
+   "recall": 0.9095
+  },
+  "TYPE|2|14x8": {
+   "removed": 433,
+   "recall": 0.866
+  },
+  "TYPE|2|8x14": {
+   "removed": 165,
+   "recall": 0.5715
+  },
+  "TYPE|2|7x16": {
+   "removed": 125,
+   "recall": 0.4925
+  },
+  "SUR-DOC|0|28x4": {
+   "removed": 1192,
+   "recall": 0.9825
+  },
+  "SUR-DOC|0|16x7": {
+   "removed": 496,
+   "recall": 0.8975
+  },
+  "SUR-DOC|0|14x8": {
+   "removed": 399,
+   "recall": 0.843
+  },
+  "SUR-DOC|0|8x14": {
+   "removed": 132,
+   "recall": 0.563
+  },
+  "SUR-DOC|0|7x16": {
+   "removed": 89,
+   "recall": 0.4755
+  },
+  "SUR-DOC|1|28x4": {
+   "removed": 1174,
+   "recall": 0.9815
+  },
+  "SUR-DOC|1|16x7": {
+   "removed": 500,
+   "recall": 0.903
+  },
+  "SUR-DOC|1|14x8": {
+   "removed": 406,
+   "recall": 0.8555
+  },
+  "SUR-DOC|1|8x14": {
+   "removed": 118,
+   "recall": 0.558
+  },
+  "SUR-DOC|1|7x16": {
+   "removed": 79,
+   "recall": 0.4685
+  },
+  "SUR-DOC|2|28x4": {
+   "removed": 1149,
+   "recall": 0.984
+  },
+  "SUR-DOC|2|16x7": {
+   "removed": 495,
+   "recall": 0.9015
+  },
+  "SUR-DOC|2|14x8": {
+   "removed": 409,
+   "recall": 0.858
+  },
+  "SUR-DOC|2|8x14": {
+   "removed": 109,
+   "recall": 0.5485
+  },
+  "SUR-DOC|2|7x16": {
+   "removed": 71,
+   "recall": 0.4735
+  },
+  "HASH-ENTITY|0|28x4": {
+   "removed": 1193,
+   "recall": 0.9825
+  },
+  "HASH-ENTITY|0|16x7": {
+   "removed": 500,
+   "recall": 0.9
+  },
+  "HASH-ENTITY|0|14x8": {
+   "removed": 407,
+   "recall": 0.8455
+  },
+  "HASH-ENTITY|0|8x14": {
+   "removed": 149,
+   "recall": 0.5685
+  },
+  "HASH-ENTITY|0|7x16": {
+   "removed": 99,
+   "recall": 0.4775
+  },
+  "HASH-ENTITY|1|28x4": {
+   "removed": 1180,
+   "recall": 0.9835
+  },
+  "HASH-ENTITY|1|16x7": {
+   "removed": 507,
+   "recall": 0.9035
+  },
+  "HASH-ENTITY|1|14x8": {
+   "removed": 414,
+   "recall": 0.8585
+  },
+  "HASH-ENTITY|1|8x14": {
+   "removed": 128,
+   "recall": 0.5635
+  },
+  "HASH-ENTITY|1|7x16": {
+   "removed": 89,
+   "recall": 0.4695
+  },
+  "HASH-ENTITY|2|28x4": {
+   "removed": 1146,
+   "recall": 0.984
+  },
+  "HASH-ENTITY|2|16x7": {
+   "removed": 502,
+   "recall": 0.9035
+  },
+  "HASH-ENTITY|2|14x8": {
+   "removed": 419,
+   "recall": 0.861
+  },
+  "HASH-ENTITY|2|8x14": {
+   "removed": 131,
+   "recall": 0.553
+  },
+  "HASH-ENTITY|2|7x16": {
+   "removed": 85,
+   "recall": 0.4765
+  }
+ },
+ "boot": {
+  "TYPE": {
+   "d_removed": 17.0,
+   "d_removed_ci": [
+    7.0,
+    28.0
+   ],
+   "d_recall": -0.003,
+   "d_recall_ci": [
+    -0.006244598278674629,
+    0.0
+   ],
+   "n_clusters": 90151,
+   "added": 21,
+   "restored": 4
+  },
+  "SUR-DOC": {
+   "d_removed": -4.0,
+   "d_removed_ci": [
+    -16.0,
+    7.0
+   ],
+   "d_recall": -0.014,
+   "d_recall_ci": [
+    -0.019471036951066906,
+    -0.008832080129332773
+   ],
+   "n_clusters": 90159,
+   "added": 15,
+   "restored": 19
+  },
+  "HASH-ENTITY": {
+   "d_removed": 4.0,
+   "d_removed_ci": [
+    -4.0,
+    13.0
+   ],
+   "d_recall": -0.0115,
+   "d_recall_ci": [
+    -0.016495058032889736,
+    -0.006985940836531426
+   ],
+   "n_clusters": 90161,
+   "added": 14,
+   "restored": 10
+  }
+ },
+ "n_orig": 90293,
+ "n_copies": 2000
+}

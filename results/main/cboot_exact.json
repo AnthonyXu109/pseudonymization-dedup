@@ -1,0 +1,98 @@
+{
+ "TAB|plain|0.7": {
+  "raw": 11,
+  "strat": 24,
+  "diff": 13.0,
+  "ci": [
+   5.0,
+   23.0
+  ],
+  "clusters_changed": 9,
+  "added": 13,
+  "restored": 0
+ },
+ "TAB|plain|0.75": {
+  "raw": 6,
+  "strat": 13,
+  "diff": 7.0,
+  "ci": [
+   2.0,
+   14.0
+  ],
+  "clusters_changed": 6,
+  "added": 7,
+  "restored": 0
+ },
+ "TAB|datatrove|0.7": {
+  "raw": 19,
+  "strat": 25,
+  "diff": 6.0,
+  "ci": [
+   0.0,
+   13.0
+  ],
+  "clusters_changed": 6,
+  "added": 7,
+  "restored": 1
+ },
+ "TAB|datatrove|0.75": {
+  "raw": 14,
+  "strat": 17,
+  "diff": 3.0,
+  "ci": [
+   0.0,
+   7.0
+  ],
+  "clusters_changed": 3,
+  "added": 3,
+  "restored": 0
+ },
+ "Enron|plain|0.7": {
+  "raw": 453,
+  "strat": 487,
+  "diff": 34.0,
+  "ci": [
+   12.0,
+   56.0
+  ],
+  "clusters_changed": 52,
+  "added": 53,
+  "restored": 19
+ },
+ "Enron|plain|0.75": {
+  "raw": 406,
+  "strat": 438,
+  "diff": 32.0,
+  "ci": [
+   12.0,
+   52.0
+  ],
+  "clusters_changed": 53,
+  "added": 51,
+  "restored": 19
+ },
+ "Enron|datatrove|0.7": {
+  "raw": 576,
+  "strat": 586,
+  "diff": 10.0,
+  "ci": [
+   -10.0,
+   29.0
+  ],
+  "clusters_changed": 49,
+  "added": 36,
+  "restored": 26
+ },
+ "Enron|datatrove|0.75": {
+  "raw": 535,
+  "strat": 530,
+  "diff": -5.0,
+  "ci": [
+   -26.0,
+   14.0
+  ],
+  "clusters_changed": 48,
+  "added": 29,
+  "restored": 34
+ }
+}

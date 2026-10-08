@@ -1,0 +1,1424 @@
+{
+ "TAB gold para|plain": {
+  "RAW": {
+   "0.5": {
+    "cases_lost": 41,
+    "dup_recall": 0.9925,
+    "dup_recall_comp": 0.9925
+   },
+   "0.55": {
+    "cases_lost": 31,
+    "dup_recall": 0.9875,
+    "dup_recall_comp": 0.9875
+   },
+   "0.6": {
+    "cases_lost": 24,
+    "dup_recall": 0.975,
+    "dup_recall_comp": 0.975
+   },
+   "0.65": {
+    "cases_lost": 15,
+    "dup_recall": 0.95,
+    "dup_recall_comp": 0.95
+   },
+   "0.7": {
+    "cases_lost": 11,
+    "dup_recall": 0.91,
+    "dup_recall_comp": 0.91
+   },
+   "0.75": {
+    "cases_lost": 6,
+    "dup_recall": 0.8475,
+    "dup_recall_comp": 0.8475
+   },
+   "0.8": {
+    "cases_lost": 5,
+    "dup_recall": 0.7575,
+    "dup_recall_comp": 0.7575
+   },
+   "0.85": {
+    "cases_lost": 2,
+    "dup_recall": 0.6275,
+    "dup_recall_comp": 0.6275
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.44,
+    "dup_recall_comp": 0.44
+   }
+  },
+  "MASK": {
+   "0.5": {
+    "cases_lost": 48,
+    "dup_recall": 0.9925,
+    "dup_recall_comp": 0.9925
+   },
+   "0.55": {
+    "cases_lost": 45,
+    "dup_recall": 0.9875,
+    "dup_recall_comp": 0.9875
+   },
+   "0.6": {
+    "cases_lost": 37,
+    "dup_recall": 0.9775,
+    "dup_recall_comp": 0.9775
+   },
+   "0.65": {
+    "cases_lost": 31,
+    "dup_recall": 0.955,
+    "dup_recall_comp": 0.955
+   },
+   "0.7": {
+    "cases_lost": 25,
+    "dup_recall": 0.9075,
+    "dup_recall_comp": 0.9075
+   },
+   "0.75": {
+    "cases_lost": 11,
+    "dup_recall": 0.8425,
+    "dup_recall_comp": 0.8425
+   },
+   "0.8": {
+    "cases_lost": 9,
+    "dup_recall": 0.7625,
+    "dup_recall_comp": 0.7625
+   },
+   "0.85": {
+    "cases_lost": 6,
+    "dup_recall": 0.6475,
+    "dup_recall_comp": 0.6475
+   },
+   "0.9": {
+    "cases_lost": 2,
+    "dup_recall": 0.4425,
+    "dup_recall_comp": 0.4425
+   }
+  },
+  "SUR-DOC": {
+   "0.5": {
+    "cases_lost": 2,
+    "dup_recall": 0.4625,
+    "dup_recall_comp": 0.4625
+   },
+   "0.55": {
+    "cases_lost": 1,
+    "dup_recall": 0.3225,
+    "dup_recall_comp": 0.3225
+   },
+   "0.6": {
+    "cases_lost": 0,
+    "dup_recall": 0.2175,
+    "dup_recall_comp": 0.2175
+   },
+   "0.65": {
+    "cases_lost": 0,
+    "dup_recall": 0.0975,
+    "dup_recall_comp": 0.0975
+   },
+   "0.7": {
+    "cases_lost": 0,
+    "dup_recall": 0.0425,
+    "dup_recall_comp": 0.0425
+   },
+   "0.75": {
+    "cases_lost": 0,
+    "dup_recall": 0.0275,
+    "dup_recall_comp": 0.0275
+   },
+   "0.8": {
+    "cases_lost": 0,
+    "dup_recall": 0.01,
+    "dup_recall_comp": 0.01
+   },
+   "0.85": {
+    "cases_lost": 0,
+    "dup_recall": 0.0025,
+    "dup_recall_comp": 0.0025
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   }
+  },
+  "SUR-CORPUS": {
+   "0.5": {
+    "cases_lost": 33,
+    "dup_recall": 0.9925,
+    "dup_recall_comp": 0.9925
+   },
+   "0.55": {
+    "cases_lost": 23,
+    "dup_recall": 0.9875,
+    "dup_recall_comp": 0.9875
+   },
+   "0.6": {
+    "cases_lost": 18,
+    "dup_recall": 0.975,
+    "dup_recall_comp": 0.975
+   },
+   "0.65": {
+    "cases_lost": 9,
+    "dup_recall": 0.95,
+    "dup_recall_comp": 0.95
+   },
+   "0.7": {
+    "cases_lost": 5,
+    "dup_recall": 0.91,
+    "dup_recall_comp": 0.91
+   },
+   "0.75": {
+    "cases_lost": 4,
+    "dup_recall": 0.8475,
+    "dup_recall_comp": 0.8475
+   },
+   "0.8": {
+    "cases_lost": 1,
+    "dup_recall": 0.7575,
+    "dup_recall_comp": 0.7575
+   },
+   "0.85": {
+    "cases_lost": 0,
+    "dup_recall": 0.6275,
+    "dup_recall_comp": 0.6275
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.44,
+    "dup_recall_comp": 0.44
+   }
+  },
+  "HASH-ENTITY": {
+   "0.5": {
+    "cases_lost": 8,
+    "dup_recall": 0.685,
+    "dup_recall_comp": 0.685
+   },
+   "0.55": {
+    "cases_lost": 5,
+    "dup_recall": 0.535,
+    "dup_recall_comp": 0.535
+   },
+   "0.6": {
+    "cases_lost": 1,
+    "dup_recall": 0.36,
+    "dup_recall_comp": 0.36
+   },
+   "0.65": {
+    "cases_lost": 0,
+    "dup_recall": 0.245,
+    "dup_recall_comp": 0.245
+   },
+   "0.7": {
+    "cases_lost": 0,
+    "dup_recall": 0.1375,
+    "dup_recall_comp": 0.1375
+   },
+   "0.75": {
+    "cases_lost": 0,
+    "dup_recall": 0.04,
+    "dup_recall_comp": 0.04
+   },
+   "0.8": {
+    "cases_lost": 0,
+    "dup_recall": 0.0225,
+    "dup_recall_comp": 0.0225
+   },
+   "0.85": {
+    "cases_lost": 0,
+    "dup_recall": 0.0075,
+    "dup_recall_comp": 0.0075
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   }
+  }
+ },
+ "TAB second-source|plain": {
+  "RAW": {
+   "0.5": {
+    "cases_lost": 41,
+    "dup_recall": 1.0,
+    "dup_recall_comp": 1.0
+   },
+   "0.55": {
+    "cases_lost": 31,
+    "dup_recall": 1.0,
+    "dup_recall_comp": 1.0
+   },
+   "0.6": {
+    "cases_lost": 24,
+    "dup_recall": 0.995,
+    "dup_recall_comp": 0.995
+   },
+   "0.65": {
+    "cases_lost": 15,
+    "dup_recall": 0.9925,
+    "dup_recall_comp": 0.9925
+   },
+   "0.7": {
+    "cases_lost": 10,
+    "dup_recall": 0.985,
+    "dup_recall_comp": 0.985
+   },
+   "0.75": {
+    "cases_lost": 6,
+    "dup_recall": 0.955,
+    "dup_recall_comp": 0.955
+   },
+   "0.8": {
+    "cases_lost": 4,
+    "dup_recall": 0.9125,
+    "dup_recall_comp": 0.9125
+   },
+   "0.85": {
+    "cases_lost": 1,
+    "dup_recall": 0.7925,
+    "dup_recall_comp": 0.7925
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.56,
+    "dup_recall_comp": 0.56
+   }
+  },
+  "MASK": {
+   "0.5": {
+    "cases_lost": 50,
+    "dup_recall": 1.0,
+    "dup_recall_comp": 1.0
+   },
+   "0.55": {
+    "cases_lost": 47,
+    "dup_recall": 0.9975,
+    "dup_recall_comp": 0.9975
+   },
+   "0.6": {
+    "cases_lost": 44,
+    "dup_recall": 0.995,
+    "dup_recall_comp": 0.995
+   },
+   "0.65": {
+    "cases_lost": 28,
+    "dup_recall": 0.9925,
+    "dup_recall_comp": 0.9925
+   },
+   "0.7": {
+    "cases_lost": 23,
+    "dup_recall": 0.98,
+    "dup_recall_comp": 0.98
+   },
+   "0.75": {
+    "cases_lost": 13,
+    "dup_recall": 0.9475,
+    "dup_recall_comp": 0.9475
+   },
+   "0.8": {
+    "cases_lost": 9,
+    "dup_recall": 0.885,
+    "dup_recall_comp": 0.885
+   },
+   "0.85": {
+    "cases_lost": 4,
+    "dup_recall": 0.7675,
+    "dup_recall_comp": 0.7675
+   },
+   "0.9": {
+    "cases_lost": 3,
+    "dup_recall": 0.5325,
+    "dup_recall_comp": 0.5325
+   }
+  },
+  "SUR-DOC": {
+   "0.5": {
+    "cases_lost": 0,
+    "dup_recall": 0.145,
+    "dup_recall_comp": 0.145
+   },
+   "0.55": {
+    "cases_lost": 0,
+    "dup_recall": 0.06,
+    "dup_recall_comp": 0.06
+   },
+   "0.6": {
+    "cases_lost": 0,
+    "dup_recall": 0.025,
+    "dup_recall_comp": 0.025
+   },
+   "0.65": {
+    "cases_lost": 0,
+    "dup_recall": 0.0075,
+    "dup_recall_comp": 0.0075
+   },
+   "0.7": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.75": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.8": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.85": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   }
+  },
+  "SUR-CORPUS": {
+   "0.5": {
+    "cases_lost": 39,
+    "dup_recall": 1.0,
+    "dup_recall_comp": 1.0
+   },
+   "0.55": {
+    "cases_lost": 31,
+    "dup_recall": 1.0,
+    "dup_recall_comp": 1.0
+   },
+   "0.6": {
+    "cases_lost": 24,
+    "dup_recall": 0.995,
+    "dup_recall_comp": 0.995
+   },
+   "0.65": {
+    "cases_lost": 15,
+    "dup_recall": 0.9925,
+    "dup_recall_comp": 0.9925
+   },
+   "0.7": {
+    "cases_lost": 10,
+    "dup_recall": 0.98,
+    "dup_recall_comp": 0.98
+   },
+   "0.75": {
+    "cases_lost": 6,
+    "dup_recall": 0.955,
+    "dup_recall_comp": 0.955
+   },
+   "0.8": {
+    "cases_lost": 4,
+    "dup_recall": 0.8925,
+    "dup_recall_comp": 0.8925
+   },
+   "0.85": {
+    "cases_lost": 1,
+    "dup_recall": 0.7625,
+    "dup_recall_comp": 0.7625
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.52,
+    "dup_recall_comp": 0.52
+   }
+  },
+  "HASH-ENTITY": {
+   "0.5": {
+    "cases_lost": 1,
+    "dup_recall": 0.345,
+    "dup_recall_comp": 0.345
+   },
+   "0.55": {
+    "cases_lost": 0,
+    "dup_recall": 0.1925,
+    "dup_recall_comp": 0.1925
+   },
+   "0.6": {
+    "cases_lost": 0,
+    "dup_recall": 0.085,
+    "dup_recall_comp": 0.085
+   },
+   "0.65": {
+    "cases_lost": 0,
+    "dup_recall": 0.035,
+    "dup_recall_comp": 0.035
+   },
+   "0.7": {
+    "cases_lost": 0,
+    "dup_recall": 0.0075,
+    "dup_recall_comp": 0.0075
+   },
+   "0.75": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.8": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.85": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   }
+  }
+ },
+ "Enron second-source|plain": {
+  "RAW": {
+   "0.5": {
+    "cases_lost": 653,
+    "dup_recall": 0.913,
+    "dup_recall_comp": 0.913
+   },
+   "0.55": {
+    "cases_lost": 597,
+    "dup_recall": 0.832,
+    "dup_recall_comp": 0.832
+   },
+   "0.6": {
+    "cases_lost": 529,
+    "dup_recall": 0.747,
+    "dup_recall_comp": 0.747
+   },
+   "0.65": {
+    "cases_lost": 489,
+    "dup_recall": 0.638,
+    "dup_recall_comp": 0.638
+   },
+   "0.7": {
+    "cases_lost": 445,
+    "dup_recall": 0.51,
+    "dup_recall_comp": 0.51
+   },
+   "0.75": {
+    "cases_lost": 401,
+    "dup_recall": 0.379,
+    "dup_recall_comp": 0.379
+   },
+   "0.8": {
+    "cases_lost": 343,
+    "dup_recall": 0.252,
+    "dup_recall_comp": 0.252
+   },
+   "0.85": {
+    "cases_lost": 279,
+    "dup_recall": 0.113,
+    "dup_recall_comp": 0.113
+   },
+   "0.9": {
+    "cases_lost": 194,
+    "dup_recall": 0.029,
+    "dup_recall_comp": 0.029
+   }
+  },
+  "MASK": {
+   "0.5": {
+    "cases_lost": 702,
+    "dup_recall": 0.949,
+    "dup_recall_comp": 0.949
+   },
+   "0.55": {
+    "cases_lost": 637,
+    "dup_recall": 0.925,
+    "dup_recall_comp": 0.926
+   },
+   "0.6": {
+    "cases_lost": 588,
+    "dup_recall": 0.881,
+    "dup_recall_comp": 0.881
+   },
+   "0.65": {
+    "cases_lost": 539,
+    "dup_recall": 0.817,
+    "dup_recall_comp": 0.817
+   },
+   "0.7": {
+    "cases_lost": 486,
+    "dup_recall": 0.71,
+    "dup_recall_comp": 0.71
+   },
+   "0.75": {
+    "cases_lost": 438,
+    "dup_recall": 0.57,
+    "dup_recall_comp": 0.57
+   },
+   "0.8": {
+    "cases_lost": 391,
+    "dup_recall": 0.41,
+    "dup_recall_comp": 0.41
+   },
+   "0.85": {
+    "cases_lost": 345,
+    "dup_recall": 0.238,
+    "dup_recall_comp": 0.238
+   },
+   "0.9": {
+    "cases_lost": 276,
+    "dup_recall": 0.092,
+    "dup_recall_comp": 0.092
+   }
+  },
+  "SUR-DOC": {
+   "0.5": {
+    "cases_lost": 256,
+    "dup_recall": 0.194,
+    "dup_recall_comp": 0.194
+   },
+   "0.55": {
+    "cases_lost": 193,
+    "dup_recall": 0.118,
+    "dup_recall_comp": 0.118
+   },
+   "0.6": {
+    "cases_lost": 142,
+    "dup_recall": 0.072,
+    "dup_recall_comp": 0.072
+   },
+   "0.65": {
+    "cases_lost": 113,
+    "dup_recall": 0.04,
+    "dup_recall_comp": 0.04
+   },
+   "0.7": {
+    "cases_lost": 72,
+    "dup_recall": 0.015,
+    "dup_recall_comp": 0.015
+   },
+   "0.75": {
+    "cases_lost": 51,
+    "dup_recall": 0.006,
+    "dup_recall_comp": 0.006
+   },
+   "0.8": {
+    "cases_lost": 36,
+    "dup_recall": 0.001,
+    "dup_recall_comp": 0.001
+   },
+   "0.85": {
+    "cases_lost": 14,
+    "dup_recall": 0.001,
+    "dup_recall_comp": 0.001
+   },
+   "0.9": {
+    "cases_lost": 11,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   }
+  },
+  "SUR-CORPUS": {
+   "0.5": {
+    "cases_lost": 643,
+    "dup_recall": 0.905,
+    "dup_recall_comp": 0.905
+   },
+   "0.55": {
+    "cases_lost": 583,
+    "dup_recall": 0.829,
+    "dup_recall_comp": 0.829
+   },
+   "0.6": {
+    "cases_lost": 521,
+    "dup_recall": 0.743,
+    "dup_recall_comp": 0.743
+   },
+   "0.65": {
+    "cases_lost": 483,
+    "dup_recall": 0.63,
+    "dup_recall_comp": 0.63
+   },
+   "0.7": {
+    "cases_lost": 443,
+    "dup_recall": 0.505,
+    "dup_recall_comp": 0.505
+   },
+   "0.75": {
+    "cases_lost": 390,
+    "dup_recall": 0.371,
+    "dup_recall_comp": 0.371
+   },
+   "0.8": {
+    "cases_lost": 339,
+    "dup_recall": 0.241,
+    "dup_recall_comp": 0.241
+   },
+   "0.85": {
+    "cases_lost": 272,
+    "dup_recall": 0.109,
+    "dup_recall_comp": 0.109
+   },
+   "0.9": {
+    "cases_lost": 191,
+    "dup_recall": 0.026,
+    "dup_recall_comp": 0.026
+   }
+  },
+  "HASH-ENTITY": {
+   "0.5": {
+    "cases_lost": 309,
+    "dup_recall": 0.325,
+    "dup_recall_comp": 0.325
+   },
+   "0.55": {
+    "cases_lost": 242,
+    "dup_recall": 0.226,
+    "dup_recall_comp": 0.227
+   },
+   "0.6": {
+    "cases_lost": 189,
+    "dup_recall": 0.141,
+    "dup_recall_comp": 0.141
+   },
+   "0.65": {
+    "cases_lost": 131,
+    "dup_recall": 0.093,
+    "dup_recall_comp": 0.093
+   },
+   "0.7": {
+    "cases_lost": 81,
+    "dup_recall": 0.047,
+    "dup_recall_comp": 0.047
+   },
+   "0.75": {
+    "cases_lost": 58,
+    "dup_recall": 0.021,
+    "dup_recall_comp": 0.021
+   },
+   "0.8": {
+    "cases_lost": 39,
+    "dup_recall": 0.008,
+    "dup_recall_comp": 0.008
+   },
+   "0.85": {
+    "cases_lost": 30,
+    "dup_recall": 0.001,
+    "dup_recall_comp": 0.001
+   },
+   "0.9": {
+    "cases_lost": 25,
+    "dup_recall": 0.001,
+    "dup_recall_comp": 0.001
+   }
+  }
+ },
+ "TAB gold para|datatrove": {
+  "RAW": {
+   "0.5": {
+    "cases_lost": 50,
+    "dup_recall": 0.9925,
+    "dup_recall_comp": 0.9925
+   },
+   "0.55": {
+    "cases_lost": 43,
+    "dup_recall": 0.9875,
+    "dup_recall_comp": 0.9875
+   },
+   "0.6": {
+    "cases_lost": 31,
+    "dup_recall": 0.9775,
+    "dup_recall_comp": 0.9775
+   },
+   "0.65": {
+    "cases_lost": 25,
+    "dup_recall": 0.96,
+    "dup_recall_comp": 0.96
+   },
+   "0.7": {
+    "cases_lost": 19,
+    "dup_recall": 0.915,
+    "dup_recall_comp": 0.915
+   },
+   "0.75": {
+    "cases_lost": 14,
+    "dup_recall": 0.8525,
+    "dup_recall_comp": 0.8525
+   },
+   "0.8": {
+    "cases_lost": 9,
+    "dup_recall": 0.77,
+    "dup_recall_comp": 0.77
+   },
+   "0.85": {
+    "cases_lost": 4,
+    "dup_recall": 0.63,
+    "dup_recall_comp": 0.63
+   },
+   "0.9": {
+    "cases_lost": 2,
+    "dup_recall": 0.4425,
+    "dup_recall_comp": 0.4425
+   }
+  },
+  "MASK": {
+   "0.5": {
+    "cases_lost": 48,
+    "dup_recall": 0.9925,
+    "dup_recall_comp": 0.9925
+   },
+   "0.55": {
+    "cases_lost": 45,
+    "dup_recall": 0.9875,
+    "dup_recall_comp": 0.9875
+   },
+   "0.6": {
+    "cases_lost": 38,
+    "dup_recall": 0.9775,
+    "dup_recall_comp": 0.9775
+   },
+   "0.65": {
+    "cases_lost": 31,
+    "dup_recall": 0.955,
+    "dup_recall_comp": 0.955
+   },
+   "0.7": {
+    "cases_lost": 25,
+    "dup_recall": 0.91,
+    "dup_recall_comp": 0.91
+   },
+   "0.75": {
+    "cases_lost": 11,
+    "dup_recall": 0.8425,
+    "dup_recall_comp": 0.8425
+   },
+   "0.8": {
+    "cases_lost": 9,
+    "dup_recall": 0.7625,
+    "dup_recall_comp": 0.7625
+   },
+   "0.85": {
+    "cases_lost": 6,
+    "dup_recall": 0.6475,
+    "dup_recall_comp": 0.6475
+   },
+   "0.9": {
+    "cases_lost": 2,
+    "dup_recall": 0.445,
+    "dup_recall_comp": 0.445
+   }
+  },
+  "SUR-DOC": {
+   "0.5": {
+    "cases_lost": 3,
+    "dup_recall": 0.4625,
+    "dup_recall_comp": 0.4625
+   },
+   "0.55": {
+    "cases_lost": 1,
+    "dup_recall": 0.315,
+    "dup_recall_comp": 0.315
+   },
+   "0.6": {
+    "cases_lost": 0,
+    "dup_recall": 0.2175,
+    "dup_recall_comp": 0.2175
+   },
+   "0.65": {
+    "cases_lost": 0,
+    "dup_recall": 0.1,
+    "dup_recall_comp": 0.1
+   },
+   "0.7": {
+    "cases_lost": 0,
+    "dup_recall": 0.0425,
+    "dup_recall_comp": 0.0425
+   },
+   "0.75": {
+    "cases_lost": 0,
+    "dup_recall": 0.0275,
+    "dup_recall_comp": 0.0275
+   },
+   "0.8": {
+    "cases_lost": 0,
+    "dup_recall": 0.01,
+    "dup_recall_comp": 0.01
+   },
+   "0.85": {
+    "cases_lost": 0,
+    "dup_recall": 0.0025,
+    "dup_recall_comp": 0.0025
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   }
+  },
+  "SUR-CORPUS": {
+   "0.5": {
+    "cases_lost": 33,
+    "dup_recall": 0.9925,
+    "dup_recall_comp": 0.9925
+   },
+   "0.55": {
+    "cases_lost": 24,
+    "dup_recall": 0.9875,
+    "dup_recall_comp": 0.9875
+   },
+   "0.6": {
+    "cases_lost": 18,
+    "dup_recall": 0.975,
+    "dup_recall_comp": 0.975
+   },
+   "0.65": {
+    "cases_lost": 9,
+    "dup_recall": 0.9525,
+    "dup_recall_comp": 0.9525
+   },
+   "0.7": {
+    "cases_lost": 5,
+    "dup_recall": 0.91,
+    "dup_recall_comp": 0.91
+   },
+   "0.75": {
+    "cases_lost": 3,
+    "dup_recall": 0.845,
+    "dup_recall_comp": 0.845
+   },
+   "0.8": {
+    "cases_lost": 1,
+    "dup_recall": 0.7575,
+    "dup_recall_comp": 0.7575
+   },
+   "0.85": {
+    "cases_lost": 0,
+    "dup_recall": 0.6325,
+    "dup_recall_comp": 0.6325
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.44,
+    "dup_recall_comp": 0.44
+   }
+  },
+  "HASH-ENTITY": {
+   "0.5": {
+    "cases_lost": 8,
+    "dup_recall": 0.6825,
+    "dup_recall_comp": 0.6825
+   },
+   "0.55": {
+    "cases_lost": 5,
+    "dup_recall": 0.53,
+    "dup_recall_comp": 0.53
+   },
+   "0.6": {
+    "cases_lost": 1,
+    "dup_recall": 0.3575,
+    "dup_recall_comp": 0.3575
+   },
+   "0.65": {
+    "cases_lost": 0,
+    "dup_recall": 0.2425,
+    "dup_recall_comp": 0.2425
+   },
+   "0.7": {
+    "cases_lost": 0,
+    "dup_recall": 0.1325,
+    "dup_recall_comp": 0.1325
+   },
+   "0.75": {
+    "cases_lost": 0,
+    "dup_recall": 0.04,
+    "dup_recall_comp": 0.04
+   },
+   "0.8": {
+    "cases_lost": 0,
+    "dup_recall": 0.0225,
+    "dup_recall_comp": 0.0225
+   },
+   "0.85": {
+    "cases_lost": 0,
+    "dup_recall": 0.0075,
+    "dup_recall_comp": 0.0075
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   }
+  }
+ },
+ "TAB second-source|datatrove": {
+  "RAW": {
+   "0.5": {
+    "cases_lost": 50,
+    "dup_recall": 1.0,
+    "dup_recall_comp": 1.0
+   },
+   "0.55": {
+    "cases_lost": 43,
+    "dup_recall": 1.0,
+    "dup_recall_comp": 1.0
+   },
+   "0.6": {
+    "cases_lost": 31,
+    "dup_recall": 0.995,
+    "dup_recall_comp": 0.995
+   },
+   "0.65": {
+    "cases_lost": 24,
+    "dup_recall": 0.9925,
+    "dup_recall_comp": 0.9925
+   },
+   "0.7": {
+    "cases_lost": 18,
+    "dup_recall": 0.9825,
+    "dup_recall_comp": 0.9825
+   },
+   "0.75": {
+    "cases_lost": 13,
+    "dup_recall": 0.96,
+    "dup_recall_comp": 0.96
+   },
+   "0.8": {
+    "cases_lost": 8,
+    "dup_recall": 0.915,
+    "dup_recall_comp": 0.915
+   },
+   "0.85": {
+    "cases_lost": 4,
+    "dup_recall": 0.795,
+    "dup_recall_comp": 0.795
+   },
+   "0.9": {
+    "cases_lost": 1,
+    "dup_recall": 0.5625,
+    "dup_recall_comp": 0.5625
+   }
+  },
+  "MASK": {
+   "0.5": {
+    "cases_lost": 52,
+    "dup_recall": 1.0,
+    "dup_recall_comp": 1.0
+   },
+   "0.55": {
+    "cases_lost": 48,
+    "dup_recall": 0.9975,
+    "dup_recall_comp": 0.9975
+   },
+   "0.6": {
+    "cases_lost": 43,
+    "dup_recall": 0.995,
+    "dup_recall_comp": 0.995
+   },
+   "0.65": {
+    "cases_lost": 30,
+    "dup_recall": 0.9925,
+    "dup_recall_comp": 0.9925
+   },
+   "0.7": {
+    "cases_lost": 24,
+    "dup_recall": 0.9825,
+    "dup_recall_comp": 0.9825
+   },
+   "0.75": {
+    "cases_lost": 17,
+    "dup_recall": 0.945,
+    "dup_recall_comp": 0.945
+   },
+   "0.8": {
+    "cases_lost": 14,
+    "dup_recall": 0.885,
+    "dup_recall_comp": 0.885
+   },
+   "0.85": {
+    "cases_lost": 6,
+    "dup_recall": 0.77,
+    "dup_recall_comp": 0.77
+   },
+   "0.9": {
+    "cases_lost": 2,
+    "dup_recall": 0.53,
+    "dup_recall_comp": 0.53
+   }
+  },
+  "SUR-DOC": {
+   "0.5": {
+    "cases_lost": 0,
+    "dup_recall": 0.145,
+    "dup_recall_comp": 0.145
+   },
+   "0.55": {
+    "cases_lost": 0,
+    "dup_recall": 0.06,
+    "dup_recall_comp": 0.06
+   },
+   "0.6": {
+    "cases_lost": 0,
+    "dup_recall": 0.025,
+    "dup_recall_comp": 0.025
+   },
+   "0.65": {
+    "cases_lost": 0,
+    "dup_recall": 0.0075,
+    "dup_recall_comp": 0.0075
+   },
+   "0.7": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.75": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.8": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.85": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   }
+  },
+  "SUR-CORPUS": {
+   "0.5": {
+    "cases_lost": 40,
+    "dup_recall": 1.0,
+    "dup_recall_comp": 1.0
+   },
+   "0.55": {
+    "cases_lost": 32,
+    "dup_recall": 1.0,
+    "dup_recall_comp": 1.0
+   },
+   "0.6": {
+    "cases_lost": 25,
+    "dup_recall": 0.995,
+    "dup_recall_comp": 0.995
+   },
+   "0.65": {
+    "cases_lost": 18,
+    "dup_recall": 0.995,
+    "dup_recall_comp": 0.995
+   },
+   "0.7": {
+    "cases_lost": 11,
+    "dup_recall": 0.98,
+    "dup_recall_comp": 0.98
+   },
+   "0.75": {
+    "cases_lost": 7,
+    "dup_recall": 0.955,
+    "dup_recall_comp": 0.955
+   },
+   "0.8": {
+    "cases_lost": 4,
+    "dup_recall": 0.8925,
+    "dup_recall_comp": 0.8925
+   },
+   "0.85": {
+    "cases_lost": 1,
+    "dup_recall": 0.7625,
+    "dup_recall_comp": 0.7625
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.5175,
+    "dup_recall_comp": 0.5175
+   }
+  },
+  "HASH-ENTITY": {
+   "0.5": {
+    "cases_lost": 1,
+    "dup_recall": 0.345,
+    "dup_recall_comp": 0.345
+   },
+   "0.55": {
+    "cases_lost": 0,
+    "dup_recall": 0.1925,
+    "dup_recall_comp": 0.1925
+   },
+   "0.6": {
+    "cases_lost": 0,
+    "dup_recall": 0.08,
+    "dup_recall_comp": 0.08
+   },
+   "0.65": {
+    "cases_lost": 0,
+    "dup_recall": 0.035,
+    "dup_recall_comp": 0.035
+   },
+   "0.7": {
+    "cases_lost": 0,
+    "dup_recall": 0.0075,
+    "dup_recall_comp": 0.0075
+   },
+   "0.75": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.8": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.85": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   },
+   "0.9": {
+    "cases_lost": 0,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   }
+  }
+ },
+ "Enron second-source|datatrove": {
+  "RAW": {
+   "0.5": {
+    "cases_lost": 766,
+    "dup_recall": 0.912,
+    "dup_recall_comp": 0.912
+   },
+   "0.55": {
+    "cases_lost": 727,
+    "dup_recall": 0.839,
+    "dup_recall_comp": 0.839
+   },
+   "0.6": {
+    "cases_lost": 669,
+    "dup_recall": 0.756,
+    "dup_recall_comp": 0.756
+   },
+   "0.65": {
+    "cases_lost": 615,
+    "dup_recall": 0.641,
+    "dup_recall_comp": 0.641
+   },
+   "0.7": {
+    "cases_lost": 568,
+    "dup_recall": 0.511,
+    "dup_recall_comp": 0.511
+   },
+   "0.75": {
+    "cases_lost": 532,
+    "dup_recall": 0.382,
+    "dup_recall_comp": 0.382
+   },
+   "0.8": {
+    "cases_lost": 464,
+    "dup_recall": 0.251,
+    "dup_recall_comp": 0.251
+   },
+   "0.85": {
+    "cases_lost": 400,
+    "dup_recall": 0.112,
+    "dup_recall_comp": 0.112
+   },
+   "0.9": {
+    "cases_lost": 322,
+    "dup_recall": 0.03,
+    "dup_recall_comp": 0.03
+   }
+  },
+  "MASK": {
+   "0.5": {
+    "cases_lost": 782,
+    "dup_recall": 0.95,
+    "dup_recall_comp": 0.95
+   },
+   "0.55": {
+    "cases_lost": 725,
+    "dup_recall": 0.924,
+    "dup_recall_comp": 0.924
+   },
+   "0.6": {
+    "cases_lost": 681,
+    "dup_recall": 0.884,
+    "dup_recall_comp": 0.884
+   },
+   "0.65": {
+    "cases_lost": 635,
+    "dup_recall": 0.821,
+    "dup_recall_comp": 0.821
+   },
+   "0.7": {
+    "cases_lost": 584,
+    "dup_recall": 0.717,
+    "dup_recall_comp": 0.717
+   },
+   "0.75": {
+    "cases_lost": 530,
+    "dup_recall": 0.58,
+    "dup_recall_comp": 0.58
+   },
+   "0.8": {
+    "cases_lost": 476,
+    "dup_recall": 0.413,
+    "dup_recall_comp": 0.413
+   },
+   "0.85": {
+    "cases_lost": 432,
+    "dup_recall": 0.24,
+    "dup_recall_comp": 0.24
+   },
+   "0.9": {
+    "cases_lost": 364,
+    "dup_recall": 0.094,
+    "dup_recall_comp": 0.094
+   }
+  },
+  "SUR-DOC": {
+   "0.5": {
+    "cases_lost": 257,
+    "dup_recall": 0.195,
+    "dup_recall_comp": 0.195
+   },
+   "0.55": {
+    "cases_lost": 192,
+    "dup_recall": 0.118,
+    "dup_recall_comp": 0.118
+   },
+   "0.6": {
+    "cases_lost": 141,
+    "dup_recall": 0.074,
+    "dup_recall_comp": 0.074
+   },
+   "0.65": {
+    "cases_lost": 113,
+    "dup_recall": 0.041,
+    "dup_recall_comp": 0.041
+   },
+   "0.7": {
+    "cases_lost": 87,
+    "dup_recall": 0.015,
+    "dup_recall_comp": 0.015
+   },
+   "0.75": {
+    "cases_lost": 53,
+    "dup_recall": 0.007,
+    "dup_recall_comp": 0.007
+   },
+   "0.8": {
+    "cases_lost": 42,
+    "dup_recall": 0.001,
+    "dup_recall_comp": 0.001
+   },
+   "0.85": {
+    "cases_lost": 24,
+    "dup_recall": 0.001,
+    "dup_recall_comp": 0.001
+   },
+   "0.9": {
+    "cases_lost": 16,
+    "dup_recall": 0.0,
+    "dup_recall_comp": 0.0
+   }
+  },
+  "SUR-CORPUS": {
+   "0.5": {
+    "cases_lost": 689,
+    "dup_recall": 0.905,
+    "dup_recall_comp": 0.905
+   },
+   "0.55": {
+    "cases_lost": 640,
+    "dup_recall": 0.833,
+    "dup_recall_comp": 0.833
+   },
+   "0.6": {
+    "cases_lost": 582,
+    "dup_recall": 0.751,
+    "dup_recall_comp": 0.751
+   },
+   "0.65": {
+    "cases_lost": 540,
+    "dup_recall": 0.634,
+    "dup_recall_comp": 0.634
+   },
+   "0.7": {
+    "cases_lost": 491,
+    "dup_recall": 0.507,
+    "dup_recall_comp": 0.507
+   },
+   "0.75": {
+    "cases_lost": 434,
+    "dup_recall": 0.377,
+    "dup_recall_comp": 0.377
+   },
+   "0.8": {
+    "cases_lost": 372,
+    "dup_recall": 0.243,
+    "dup_recall_comp": 0.243
+   },
+   "0.85": {
+    "cases_lost": 295,
+    "dup_recall": 0.111,
+    "dup_recall_comp": 0.111
+   },
+   "0.9": {
+    "cases_lost": 229,
+    "dup_recall": 0.027,
+    "dup_recall_comp": 0.027
+   }
+  },
+  "HASH-ENTITY": {
+   "0.5": {
+    "cases_lost": 329,
+    "dup_recall": 0.327,
+    "dup_recall_comp": 0.327
+   },
+   "0.55": {
+    "cases_lost": 247,
+    "dup_recall": 0.226,
+    "dup_recall_comp": 0.227
+   },
+   "0.6": {
+    "cases_lost": 184,
+    "dup_recall": 0.141,
+    "dup_recall_comp": 0.141
+   },
+   "0.65": {
+    "cases_lost": 132,
+    "dup_recall": 0.094,
+    "dup_recall_comp": 0.094
+   },
+   "0.7": {
+    "cases_lost": 96,
+    "dup_recall": 0.047,
+    "dup_recall_comp": 0.047
+   },
+   "0.75": {
+    "cases_lost": 73,
+    "dup_recall": 0.021,
+    "dup_recall_comp": 0.021
+   },
+   "0.8": {
+    "cases_lost": 45,
+    "dup_recall": 0.008,
+    "dup_recall_comp": 0.008
+   },
+   "0.85": {
+    "cases_lost": 41,
+    "dup_recall": 0.001,
+    "dup_recall_comp": 0.001
+   },
+   "0.9": {
+    "cases_lost": 31,
+    "dup_recall": 0.001,
+    "dup_recall_comp": 0.001
+   }
+  }
+ }
+}

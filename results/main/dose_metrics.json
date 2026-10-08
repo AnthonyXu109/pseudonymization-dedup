@@ -1,0 +1,96 @@
+{
+ "n": 8539,
+ "reach": 1221,
+ "mae_shared": 0.00036672274413230535,
+ "max_shared": 0.04629629629629639,
+ "disagree_theta_shared": 3,
+ "disagree_theta_doc": 23,
+ "warn_false_alarm": 2,
+ "warn_miss": 999,
+ "warned": 6321,
+ "not_warned": 2218,
+ "bound_violations_shared": 0,
+ "per_setting": {
+  "TAB gold": {
+   "n": 400,
+   "disagree_shared": 0,
+   "disagree_doc": 2,
+   "false_alarm": 0,
+   "miss": 25,
+   "not_warned": 42
+  },
+  "TAB detector": {
+   "n": 400,
+   "disagree_shared": 0,
+   "disagree_doc": 0,
+   "false_alarm": 0,
+   "miss": 1,
+   "not_warned": 3
+  },
+  "Enron detector": {
+   "n": 1000,
+   "disagree_shared": 0,
+   "disagree_doc": 6,
+   "false_alarm": 1,
+   "miss": 116,
+   "not_warned": 173
+  },
+  "Enron natural": {
+   "n": 1339,
+   "disagree_shared": 0,
+   "disagree_doc": 0,
+   "false_alarm": 0,
+   "miss": 0,
+   "not_warned": 180
+  },
+  "Enron Dolma-like": {
+   "n": 1000,
+   "disagree_shared": 0,
+   "disagree_doc": 4,
+   "false_alarm": 1,
+   "miss": 380,
+   "not_warned": 977
+  },
+  "TAB second-source": {
+   "n": 400,
+   "disagree_shared": 0,
+   "disagree_doc": 0,
+   "false_alarm": 0,
+   "miss": 3,
+   "not_warned": 3
+  },
+  "Enron second-source": {
+   "n": 1000,
+   "disagree_shared": 0,
+   "disagree_doc": 0,
+   "false_alarm": 0,
+   "miss": 160,
+   "not_warned": 175
+  },
+  "ECtHR second-source": {
+   "n": 1000,
+   "disagree_shared": 0,
+   "disagree_doc": 0,
+   "false_alarm": 0,
+   "miss": 10,
+   "not_warned": 16
+  },
+  "Web second-source": {
+   "n": 2000,
+   "disagree_shared": 3,
+   "disagree_doc": 11,
+   "false_alarm": 0,
+   "miss": 304,
+   "not_warned": 649
+  }
+ },
+ "warning_rule_on_raw_pairs": {
+  "raw_pairs": 6944,
+  "lost": 5723,
+  "warned_and_lost": 5334,
+  "warned_but_kept": 2,
+  "not_warned_but_lost": 389,
+  "not_warned_kept": 1219,
+  "mae_doc_formula": 0.009795964626480788
+ }
+}

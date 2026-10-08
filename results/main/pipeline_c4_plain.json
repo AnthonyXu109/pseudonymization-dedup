@@ -1,0 +1,444 @@
+{
+ "results": {
+  "RAW|0|28x4": {
+   "removed": 1188,
+   "recall": 0.9835,
+   "recall_touched": 0.9835
+  },
+  "RAW|0|16x7": {
+   "removed": 506,
+   "recall": 0.904,
+   "recall_touched": 0.904
+  },
+  "RAW|0|14x8": {
+   "removed": 402,
+   "recall": 0.864,
+   "recall_touched": 0.864
+  },
+  "RAW|0|8x14": {
+   "removed": 179,
+   "recall": 0.576,
+   "recall_touched": 0.576
+  },
+  "RAW|0|7x16": {
+   "removed": 136,
+   "recall": 0.4905,
+   "recall_touched": 0.4905
+  },
+  "RAW|1|28x4": {
+   "removed": 1178,
+   "recall": 0.9845,
+   "recall_touched": 0.9845
+  },
+  "RAW|1|16x7": {
+   "removed": 510,
+   "recall": 0.91,
+   "recall_touched": 0.91
+  },
+  "RAW|1|14x8": {
+   "removed": 414,
+   "recall": 0.865,
+   "recall_touched": 0.865
+  },
+  "RAW|1|8x14": {
+   "removed": 163,
+   "recall": 0.588,
+   "recall_touched": 0.588
+  },
+  "RAW|1|7x16": {
+   "removed": 130,
+   "recall": 0.507,
+   "recall_touched": 0.507
+  },
+  "RAW|2|28x4": {
+   "removed": 1152,
+   "recall": 0.985,
+   "recall_touched": 0.985
+  },
+  "RAW|2|16x7": {
+   "removed": 504,
+   "recall": 0.908,
+   "recall_touched": 0.908
+  },
+  "RAW|2|14x8": {
+   "removed": 421,
+   "recall": 0.8695,
+   "recall_touched": 0.8695
+  },
+  "RAW|2|8x14": {
+   "removed": 165,
+   "recall": 0.5665,
+   "recall_touched": 0.5665
+  },
+  "RAW|2|7x16": {
+   "removed": 122,
+   "recall": 0.4955,
+   "recall_touched": 0.4955
+  },
+  "MASK|0|28x4": {
+   "removed": 1581,
+   "recall": 0.9855,
+   "recall_touched": 0.9855
+  },
+  "MASK|0|16x7": {
+   "removed": 1010,
+   "recall": 0.9235,
+   "recall_touched": 0.9235
+  },
+  "MASK|0|14x8": {
+   "removed": 894,
+   "recall": 0.8905,
+   "recall_touched": 0.8905
+  },
+  "MASK|0|8x14": {
+   "removed": 580,
+   "recall": 0.6215,
+   "recall_touched": 0.6215
+  },
+  "MASK|0|7x16": {
+   "removed": 531,
+   "recall": 0.5255,
+   "recall_touched": 0.5255
+  },
+  "MASK|1|28x4": {
+   "removed": 1548,
+   "recall": 0.9845,
+   "recall_touched": 0.9845
+  },
+  "MASK|1|16x7": {
+   "removed": 984,
+   "recall": 0.9285,
+   "recall_touched": 0.9285
+  },
+  "MASK|1|14x8": {
+   "removed": 894,
+   "recall": 0.894,
+   "recall_touched": 0.894
+  },
+  "MASK|1|8x14": {
+   "removed": 598,
+   "recall": 0.628,
+   "recall_touched": 0.628
+  },
+  "MASK|1|7x16": {
+   "removed": 546,
+   "recall": 0.5545,
+   "recall_touched": 0.5545
+  },
+  "MASK|2|28x4": {
+   "removed": 1578,
+   "recall": 0.9855,
+   "recall_touched": 0.9855
+  },
+  "MASK|2|16x7": {
+   "removed": 1001,
+   "recall": 0.9245,
+   "recall_touched": 0.9245
+  },
+  "MASK|2|14x8": {
+   "removed": 896,
+   "recall": 0.89,
+   "recall_touched": 0.89
+  },
+  "MASK|2|8x14": {
+   "removed": 604,
+   "recall": 0.6135,
+   "recall_touched": 0.6135
+  },
+  "MASK|2|7x16": {
+   "removed": 544,
+   "recall": 0.522,
+   "recall_touched": 0.522
+  },
+  "SUR-DOC|0|28x4": {
+   "removed": 940,
+   "recall": 0.6685,
+   "recall_touched": 0.6685
+  },
+  "SUR-DOC|0|16x7": {
+   "removed": 296,
+   "recall": 0.2925,
+   "recall_touched": 0.2925
+  },
+  "SUR-DOC|0|14x8": {
+   "removed": 228,
+   "recall": 0.228,
+   "recall_touched": 0.228
+  },
+  "SUR-DOC|0|8x14": {
+   "removed": 34,
+   "recall": 0.0585,
+   "recall_touched": 0.0585
+  },
+  "SUR-DOC|0|7x16": {
+   "removed": 15,
+   "recall": 0.041,
+   "recall_touched": 0.041
+  },
+  "SUR-DOC|1|28x4": {
+   "removed": 948,
+   "recall": 0.683,
+   "recall_touched": 0.683
+  },
+  "SUR-DOC|1|16x7": {
+   "removed": 347,
+   "recall": 0.299,
+   "recall_touched": 0.299
+  },
+  "SUR-DOC|1|14x8": {
+   "removed": 219,
+   "recall": 0.225,
+   "recall_touched": 0.225
+  },
+  "SUR-DOC|1|8x14": {
+   "removed": 32,
+   "recall": 0.0595,
+   "recall_touched": 0.0595
+  },
+  "SUR-DOC|1|7x16": {
+   "removed": 25,
+   "recall": 0.0405,
+   "recall_touched": 0.0405
+  },
+  "SUR-DOC|2|28x4": {
+   "removed": 949,
+   "recall": 0.6785,
+   "recall_touched": 0.6785
+  },
+  "SUR-DOC|2|16x7": {
+   "removed": 313,
+   "recall": 0.281,
+   "recall_touched": 0.281
+  },
+  "SUR-DOC|2|14x8": {
+   "removed": 218,
+   "recall": 0.216,
+   "recall_touched": 0.216
+  },
+  "SUR-DOC|2|8x14": {
+   "removed": 31,
+   "recall": 0.059,
+   "recall_touched": 0.059
+  },
+  "SUR-DOC|2|7x16": {
+   "removed": 14,
+   "recall": 0.042,
+   "recall_touched": 0.042
+  },
+  "SUR-CORPUS|0|28x4": {
+   "removed": 1149,
+   "recall": 0.983,
+   "recall_touched": 0.983
+  },
+  "SUR-CORPUS|0|16x7": {
+   "removed": 483,
+   "recall": 0.902,
+   "recall_touched": 0.902
+  },
+  "SUR-CORPUS|0|14x8": {
+   "removed": 388,
+   "recall": 0.8615,
+   "recall_touched": 0.8615
+  },
+  "SUR-CORPUS|0|8x14": {
+   "removed": 163,
+   "recall": 0.561,
+   "recall_touched": 0.561
+  },
+  "SUR-CORPUS|0|7x16": {
+   "removed": 116,
+   "recall": 0.4765,
+   "recall_touched": 0.4765
+  },
+  "SUR-CORPUS|1|28x4": {
+   "removed": 1134,
+   "recall": 0.9835,
+   "recall_touched": 0.9835
+  },
+  "SUR-CORPUS|1|16x7": {
+   "removed": 494,
+   "recall": 0.9105,
+   "recall_touched": 0.9105
+  },
+  "SUR-CORPUS|1|14x8": {
+   "removed": 391,
+   "recall": 0.856,
+   "recall_touched": 0.856
+  },
+  "SUR-CORPUS|1|8x14": {
+   "removed": 167,
+   "recall": 0.559,
+   "recall_touched": 0.559
+  },
+  "SUR-CORPUS|1|7x16": {
+   "removed": 134,
+   "recall": 0.48,
+   "recall_touched": 0.48
+  },
+  "SUR-CORPUS|2|28x4": {
+   "removed": 1186,
+   "recall": 0.984,
+   "recall_touched": 0.984
+  },
+  "SUR-CORPUS|2|16x7": {
+   "removed": 483,
+   "recall": 0.9065,
+   "recall_touched": 0.9065
+  },
+  "SUR-CORPUS|2|14x8": {
+   "removed": 383,
+   "recall": 0.852,
+   "recall_touched": 0.852
+  },
+  "SUR-CORPUS|2|8x14": {
+   "removed": 149,
+   "recall": 0.554,
+   "recall_touched": 0.554
+  },
+  "SUR-CORPUS|2|7x16": {
+   "removed": 113,
+   "recall": 0.4705,
+   "recall_touched": 0.4705
+  },
+  "HASH-ENTITY|0|28x4": {
+   "removed": 1052,
+   "recall": 0.7445,
+   "recall_touched": 0.7445
+  },
+  "HASH-ENTITY|0|16x7": {
+   "removed": 388,
+   "recall": 0.3595,
+   "recall_touched": 0.3595
+  },
+  "HASH-ENTITY|0|14x8": {
+   "removed": 298,
+   "recall": 0.284,
+   "recall_touched": 0.284
+  },
+  "HASH-ENTITY|0|8x14": {
+   "removed": 53,
+   "recall": 0.0815,
+   "recall_touched": 0.0815
+  },
+  "HASH-ENTITY|0|7x16": {
+   "removed": 38,
+   "recall": 0.054,
+   "recall_touched": 0.054
+  },
+  "HASH-ENTITY|1|28x4": {
+   "removed": 1056,
+   "recall": 0.7405,
+   "recall_touched": 0.7405
+  },
+  "HASH-ENTITY|1|16x7": {
+   "removed": 398,
+   "recall": 0.3675,
+   "recall_touched": 0.3675
+  },
+  "HASH-ENTITY|1|14x8": {
+   "removed": 288,
+   "recall": 0.278,
+   "recall_touched": 0.278
+  },
+  "HASH-ENTITY|1|8x14": {
+   "removed": 56,
+   "recall": 0.0735,
+   "recall_touched": 0.0735
+  },
+  "HASH-ENTITY|1|7x16": {
+   "removed": 30,
+   "recall": 0.05,
+   "recall_touched": 0.05
+  },
+  "HASH-ENTITY|2|28x4": {
+   "removed": 1088,
+   "recall": 0.738,
+   "recall_touched": 0.738
+  },
+  "HASH-ENTITY|2|16x7": {
+   "removed": 403,
+   "recall": 0.358,
+   "recall_touched": 0.358
+  },
+  "HASH-ENTITY|2|14x8": {
+   "removed": 293,
+   "recall": 0.284,
+   "recall_touched": 0.284
+  },
+  "HASH-ENTITY|2|8x14": {
+   "removed": 55,
+   "recall": 0.085,
+   "recall_touched": 0.085
+  },
+  "HASH-ENTITY|2|7x16": {
+   "removed": 27,
+   "recall": 0.0665,
+   "recall_touched": 0.0665
+  }
+ },
+ "boot": {
+  "MASK": {
+   "d_removed": 492.0,
+   "d_removed_ci": [
+    319.975,
+    750.0
+   ],
+   "d_recall": 0.0265,
+   "d_recall_ci": [
+    0.013456146783246834,
+    0.03986198007572299
+   ],
+   "n_clusters": 89514,
+   "added": 520,
+   "restored": 28
+  },
+  "SUR-DOC": {
+   "d_removed": -174.0,
+   "d_removed_ci": [
+    -215.0,
+    -136.0
+   ],
+   "d_recall": -0.636,
+   "d_recall_ci": [
+    -0.6570784402288468,
+    -0.6146598598417187
+   ],
+   "n_clusters": 90101,
+   "added": 41,
+   "restored": 215
+  },
+  "SUR-CORPUS": {
+   "d_removed": -14.0,
+   "d_removed_ci": [
+    -39.0,
+    11.0
+   ],
+   "d_recall": -0.0025,
+   "d_recall_ci": [
+    -0.016556960132135937,
+    0.01160443995963673
+   ],
+   "n_clusters": 89990,
+   "added": 71,
+   "restored": 85
+  },
+  "HASH-ENTITY": {
+   "d_removed": -104.0,
+   "d_removed_ci": [
+    -139.0,
+    -69.0
+   ],
+   "d_recall": -0.58,
+   "d_recall_ci": [
+    -0.6026293391936486,
+    -0.5560697826822255
+   ],
+   "n_clusters": 90074,
+   "added": 59,
+   "restored": 163
+  }
+ },
+ "n_orig": 90293,
+ "n_copies": 2000,
+ "n_copies_touched": 2000
+}

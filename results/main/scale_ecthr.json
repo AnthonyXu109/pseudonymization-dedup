@@ -1,0 +1,635 @@
+{
+ "real|plain": {
+  "results": {
+   "RAW": {
+    "0.7": {
+     "cases_lost": 51,
+     "dup_recall": 0.974,
+     "dup_recall_lsh": 0.965
+    },
+    "0.75": {
+     "cases_lost": 51,
+     "dup_recall": 0.951,
+     "dup_recall_lsh": 0.965
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 17252283,
+     "correct": 17252283,
+     "recall": 1.0,
+     "precision": 1.0
+    }
+   },
+   "MASK": {
+    "0.7": {
+     "cases_lost": 110,
+     "dup_recall": 0.972,
+     "dup_recall_lsh": 0.955
+    },
+    "0.75": {
+     "cases_lost": 110,
+     "dup_recall": 0.943,
+     "dup_recall_lsh": 0.955
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 11081520982,
+     "correct": 17252283,
+     "recall": 1.0,
+     "precision": 0.0015568515394252583
+    }
+   },
+   "ALIAS-DOC": {
+    "0.7": {
+     "cases_lost": 60,
+     "dup_recall": 0.246,
+     "dup_recall_lsh": 0.34
+    },
+    "0.75": {
+     "cases_lost": 60,
+     "dup_recall": 0.11,
+     "dup_recall_lsh": 0.34
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 924971233,
+     "correct": 2634922,
+     "recall": 0.15272888811295293,
+     "precision": 0.0028486529158901963
+    }
+   },
+   "SUR-DOC": {
+    "0.7": {
+     "cases_lost": 4,
+     "dup_recall": 0.006,
+     "dup_recall_lsh": 0.056
+    },
+    "0.75": {
+     "cases_lost": 4,
+     "dup_recall": 0.0,
+     "dup_recall_lsh": 0.056
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 0,
+     "correct": 0,
+     "recall": 0.0,
+     "precision": NaN
+    }
+   },
+   "SUR-CORPUS": {
+    "0.7": {
+     "cases_lost": 46,
+     "dup_recall": 0.972,
+     "dup_recall_lsh": 0.959
+    },
+    "0.75": {
+     "cases_lost": 46,
+     "dup_recall": 0.946,
+     "dup_recall_lsh": 0.959
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 17243355,
+     "correct": 17243355,
+     "recall": 0.9994825032721756,
+     "precision": 1.0
+    }
+   },
+   "HASH-ENTITY": {
+    "0.7": {
+     "cases_lost": 3,
+     "dup_recall": 0.027,
+     "dup_recall_lsh": 0.105
+    },
+    "0.75": {
+     "cases_lost": 3,
+     "dup_recall": 0.003,
+     "dup_recall_lsh": 0.105
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 0,
+     "correct": 0,
+     "recall": 0.0,
+     "precision": NaN
+    }
+   },
+   "FAKER-DOC": {
+    "0.7": {
+     "cases_lost": 1,
+     "dup_recall": 0.005,
+     "dup_recall_lsh": 0.062
+    },
+    "0.75": {
+     "cases_lost": 1,
+     "dup_recall": 0.0,
+     "dup_recall_lsh": 0.062
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 732229,
+     "correct": 1599,
+     "recall": 9.268338572929739e-05,
+     "precision": 0.002183743063986813
+    }
+   }
+  },
+  "compare": {
+   "MASK@0.7": {
+    "lost": {
+     "diff": 0.005364124011273753,
+     "lo": 0.0038185289571779253,
+     "hi": 0.007000636421492863,
+     "only_strategy": 71,
+     "only_base": 12,
+     "mcnemar_p": 2.394644905698785e-11
+    },
+    "det": {
+     "diff": -0.0020000000000000018,
+     "lo": -0.006000000000000005,
+     "hi": 0.0010000000000000009,
+     "only_strategy": 1,
+     "only_base": 3,
+     "mcnemar_p": 0.625
+    }
+   },
+   "MASK@0.75": {
+    "lost": {
+     "diff": 0.005364124011273753,
+     "lo": 0.0038185289571779253,
+     "hi": 0.007000636421492863,
+     "only_strategy": 71,
+     "only_base": 12,
+     "mcnemar_p": 2.394644905698785e-11
+    },
+    "det": {
+     "diff": -0.008000000000000007,
+     "lo": -0.015000000000000013,
+     "hi": -0.0020000000000000018,
+     "only_strategy": 2,
+     "only_base": 10,
+     "mcnemar_p": 0.03857421875
+    }
+   },
+   "ALIAS-DOC@0.7": {
+    "lost": {
+     "diff": 0.0008182562051095559,
+     "lo": -0.0005455041367397034,
+     "hi": 0.0020910991908355304,
+     "only_strategy": 32,
+     "only_base": 23,
+     "mcnemar_p": 0.2806097176983541
+    },
+    "det": {
+     "diff": -0.728,
+     "lo": -0.756,
+     "hi": -0.701,
+     "only_strategy": 0,
+     "only_base": 728,
+     "mcnemar_p": 1.4164235936814247e-219
+    }
+   },
+   "ALIAS-DOC@0.75": {
+    "lost": {
+     "diff": 0.0008182562051095559,
+     "lo": -0.0005455041367397034,
+     "hi": 0.0020910991908355304,
+     "only_strategy": 32,
+     "only_base": 23,
+     "mcnemar_p": 0.2806097176983541
+    },
+    "det": {
+     "diff": -0.841,
+     "lo": -0.863,
+     "hi": -0.8170000000000001,
+     "only_strategy": 0,
+     "only_base": 841,
+     "mcnemar_p": 1.3639663065038175e-253
+    }
+   },
+   "SUR-DOC@0.7": {
+    "lost": {
+     "diff": -0.004273115737794345,
+     "lo": -0.00554595872352032,
+     "hi": -0.0031821074643149376,
+     "only_strategy": 0,
+     "only_base": 47,
+     "mcnemar_p": 1.4210854715202004e-14
+    },
+    "det": {
+     "diff": -0.968,
+     "lo": -0.978025,
+     "hi": -0.957,
+     "only_strategy": 0,
+     "only_base": 968,
+     "mcnemar_p": 8.016673440035891e-292
+    }
+   },
+   "SUR-DOC@0.75": {
+    "lost": {
+     "diff": -0.004273115737794345,
+     "lo": -0.00554595872352032,
+     "hi": -0.0031821074643149376,
+     "only_strategy": 0,
+     "only_base": 47,
+     "mcnemar_p": 1.4210854715202004e-14
+    },
+    "det": {
+     "diff": -0.951,
+     "lo": -0.963,
+     "hi": -0.938,
+     "only_strategy": 0,
+     "only_base": 951,
+     "mcnemar_p": 1.0507614211323843e-286
+    }
+   },
+   "SUR-CORPUS@0.7": {
+    "lost": {
+     "diff": -0.0004545867806164195,
+     "lo": -0.0013660332757523413,
+     "hi": 0.0004545867806164195,
+     "only_strategy": 11,
+     "only_base": 16,
+     "mcnemar_p": 0.44206833839416504
+    },
+    "det": {
+     "diff": -0.0020000000000000018,
+     "lo": -0.0050000000000000044,
+     "hi": 0.0,
+     "only_strategy": 0,
+     "only_base": 2,
+     "mcnemar_p": 0.5
+    }
+   },
+   "SUR-CORPUS@0.75": {
+    "lost": {
+     "diff": -0.0004545867806164195,
+     "lo": -0.0013660332757523413,
+     "hi": 0.0004545867806164195,
+     "only_strategy": 11,
+     "only_base": 16,
+     "mcnemar_p": 0.44206833839416504
+    },
+    "det": {
+     "diff": -0.0050000000000000044,
+     "lo": -0.010000000000000009,
+     "hi": -0.0010000000000000009,
+     "only_strategy": 0,
+     "only_base": 5,
+     "mcnemar_p": 0.0625
+    }
+   },
+   "HASH-ENTITY@0.7": {
+    "lost": {
+     "diff": -0.004364033093917629,
+     "lo": -0.005639149013546686,
+     "hi": -0.003182107464314938,
+     "only_strategy": 0,
+     "only_base": 48,
+     "mcnemar_p": 7.105427357601002e-15
+    },
+    "det": {
+     "diff": -0.947,
+     "lo": -0.961,
+     "hi": -0.9339999999999999,
+     "only_strategy": 0,
+     "only_base": 947,
+     "mcnemar_p": 1.681218273811815e-285
+    }
+   },
+   "HASH-ENTITY@0.75": {
+    "lost": {
+     "diff": -0.004364033093917629,
+     "lo": -0.005639149013546686,
+     "hi": -0.003182107464314938,
+     "only_strategy": 0,
+     "only_base": 48,
+     "mcnemar_p": 7.105427357601002e-15
+    },
+    "det": {
+     "diff": -0.948,
+     "lo": -0.961,
+     "hi": -0.934,
+     "only_strategy": 0,
+     "only_base": 948,
+     "mcnemar_p": 8.406091369059075e-286
+    }
+   },
+   "FAKER-DOC@0.7": {
+    "lost": {
+     "diff": -0.0045458678061641965,
+     "lo": -0.005818710791890172,
+     "hi": -0.003363942176561506,
+     "only_strategy": 0,
+     "only_base": 50,
+     "mcnemar_p": 1.7763568394002505e-15
+    },
+    "det": {
+     "diff": -0.969,
+     "lo": -0.979,
+     "hi": -0.958,
+     "only_strategy": 0,
+     "only_base": 969,
+     "mcnemar_p": 4.008336720017946e-292
+    }
+   },
+   "FAKER-DOC@0.75": {
+    "lost": {
+     "diff": -0.0045458678061641965,
+     "lo": -0.005818710791890172,
+     "hi": -0.003363942176561506,
+     "only_strategy": 0,
+     "only_base": 50,
+     "mcnemar_p": 1.7763568394002505e-15
+    },
+    "det": {
+     "diff": -0.951,
+     "lo": -0.963,
+     "hi": -0.938,
+     "only_strategy": 0,
+     "only_base": 951,
+     "mcnemar_p": 1.0507614211323843e-286
+    }
+   }
+  }
+ },
+ "real|datatrove": {
+  "results": {
+   "RAW": {
+    "0.7": {
+     "cases_lost": 89,
+     "dup_recall": 0.977,
+     "dup_recall_lsh": 0.97
+    },
+    "0.75": {
+     "cases_lost": 89,
+     "dup_recall": 0.96,
+     "dup_recall_lsh": 0.97
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 17252283,
+     "correct": 17252283,
+     "recall": 1.0,
+     "precision": 1.0
+    }
+   },
+   "MASK": {
+    "0.7": {
+     "cases_lost": 159,
+     "dup_recall": 0.973,
+     "dup_recall_lsh": 0.971
+    },
+    "0.75": {
+     "cases_lost": 159,
+     "dup_recall": 0.952,
+     "dup_recall_lsh": 0.971
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 11081520982,
+     "correct": 17252283,
+     "recall": 1.0,
+     "precision": 0.0015568515394252583
+    }
+   },
+   "SUR-DOC": {
+    "0.7": {
+     "cases_lost": 5,
+     "dup_recall": 0.006,
+     "dup_recall_lsh": 0.06
+    },
+    "0.75": {
+     "cases_lost": 5,
+     "dup_recall": 0.0,
+     "dup_recall_lsh": 0.06
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 0,
+     "correct": 0,
+     "recall": 0.0,
+     "precision": NaN
+    }
+   }
+  },
+  "compare": {
+   "MASK@0.7": {
+    "lost": {
+     "diff": 0.006364214928629874,
+     "lo": 0.0046367851622874795,
+     "hi": 0.00809164469497227,
+     "only_strategy": 86,
+     "only_base": 16,
+     "mcnemar_p": 9.13466159541085e-13
+    },
+    "det": {
+     "diff": -0.0040000000000000036,
+     "lo": -0.009000000000000008,
+     "hi": 0.0,
+     "only_strategy": 1,
+     "only_base": 5,
+     "mcnemar_p": 0.21875
+    }
+   },
+   "MASK@0.75": {
+    "lost": {
+     "diff": 0.006364214928629874,
+     "lo": 0.0046367851622874795,
+     "hi": 0.00809164469497227,
+     "only_strategy": 86,
+     "only_base": 16,
+     "mcnemar_p": 9.13466159541085e-13
+    },
+    "det": {
+     "diff": -0.008000000000000007,
+     "lo": -0.015000000000000013,
+     "hi": -0.0020000000000000018,
+     "only_strategy": 2,
+     "only_base": 10,
+     "mcnemar_p": 0.03857421875
+    }
+   },
+   "SUR-DOC@0.7": {
+    "lost": {
+     "diff": -0.0076370579143558515,
+     "lo": -0.009275843258478043,
+     "hi": -0.0060914628602600236,
+     "only_strategy": 0,
+     "only_base": 84,
+     "mcnemar_p": 1.0339757656912846e-25
+    },
+    "det": {
+     "diff": -0.971,
+     "lo": -0.981,
+     "hi": -0.96,
+     "only_strategy": 0,
+     "only_base": 971,
+     "mcnemar_p": 1.0020841800044864e-292
+    }
+   },
+   "SUR-DOC@0.75": {
+    "lost": {
+     "diff": -0.0076370579143558515,
+     "lo": -0.009275843258478043,
+     "hi": -0.0060914628602600236,
+     "only_strategy": 0,
+     "only_base": 84,
+     "mcnemar_p": 1.0339757656912846e-25
+    },
+    "det": {
+     "diff": -0.96,
+     "lo": -0.972,
+     "hi": -0.948,
+     "only_strategy": 0,
+     "only_base": 960,
+     "mcnemar_p": 2.0522684006491881e-289
+    }
+   }
+  }
+ },
+ "para|plain": {
+  "results": {
+   "RAW": {
+    "0.7": {
+     "cases_lost": 50,
+     "dup_recall": 0.91,
+     "dup_recall_lsh": 0.894
+    },
+    "0.75": {
+     "cases_lost": 50,
+     "dup_recall": 0.823,
+     "dup_recall_lsh": 0.894
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 17252283,
+     "correct": 17252283,
+     "recall": 1.0,
+     "precision": 1.0
+    }
+   },
+   "MASK": {
+    "0.7": {
+     "cases_lost": 105,
+     "dup_recall": 0.9,
+     "dup_recall_lsh": 0.882
+    },
+    "0.75": {
+     "cases_lost": 105,
+     "dup_recall": 0.816,
+     "dup_recall_lsh": 0.882
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 11081520982,
+     "correct": 17252283,
+     "recall": 1.0,
+     "precision": 0.0015568515394252583
+    }
+   },
+   "SUR-DOC": {
+    "0.7": {
+     "cases_lost": 4,
+     "dup_recall": 0.004,
+     "dup_recall_lsh": 0.043
+    },
+    "0.75": {
+     "cases_lost": 4,
+     "dup_recall": 0.002,
+     "dup_recall_lsh": 0.043
+    },
+    "link_person": {
+     "true": 17252283,
+     "predicted": 0,
+     "correct": 0,
+     "recall": 0.0,
+     "precision": NaN
+    }
+   }
+  },
+  "compare": {
+   "MASK@0.7": {
+    "lost": {
+     "diff": 0.005000454586780617,
+     "lo": 0.0034548595326847897,
+     "hi": 0.006546049640876444,
+     "only_strategy": 67,
+     "only_base": 12,
+     "mcnemar_p": 2.048841172810755e-10
+    },
+    "det": {
+     "diff": -0.010000000000000009,
+     "lo": -0.017000000000000015,
+     "hi": -0.0040000000000000036,
+     "only_strategy": 1,
+     "only_base": 11,
+     "mcnemar_p": 0.00634765625
+    }
+   },
+   "MASK@0.75": {
+    "lost": {
+     "diff": 0.005000454586780617,
+     "lo": 0.0034548595326847897,
+     "hi": 0.006546049640876444,
+     "only_strategy": 67,
+     "only_base": 12,
+     "mcnemar_p": 2.048841172810755e-10
+    },
+    "det": {
+     "diff": -0.007000000000000006,
+     "lo": -0.016999999999999904,
+     "hi": 0.0030000000000000027,
+     "only_strategy": 9,
+     "only_base": 16,
+     "mcnemar_p": 0.2295229434967041
+    }
+   },
+   "SUR-DOC@0.7": {
+    "lost": {
+     "diff": -0.004182198381671061,
+     "lo": -0.005455041367397036,
+     "hi": -0.0030911901081916537,
+     "only_strategy": 0,
+     "only_base": 46,
+     "mcnemar_p": 2.842170943040401e-14
+    },
+    "det": {
+     "diff": -0.906,
+     "lo": -0.924,
+     "hi": -0.887,
+     "only_strategy": 0,
+     "only_base": 906,
+     "mcnemar_p": 3.697038081771171e-273
+    }
+   },
+   "SUR-DOC@0.75": {
+    "lost": {
+     "diff": -0.004182198381671061,
+     "lo": -0.005455041367397036,
+     "hi": -0.0030911901081916537,
+     "only_strategy": 0,
+     "only_base": 46,
+     "mcnemar_p": 2.842170943040401e-14
+    },
+    "det": {
+     "diff": -0.821,
+     "lo": -0.844,
+     "hi": -0.797,
+     "only_strategy": 0,
+     "only_base": 821,
+     "mcnemar_p": 1.430222333808547e-247
+    }
+   }
+  }
+ },
+ "dose": {
+  "n": 1000,
+  "median_m": 0.37022696278979156,
+  "rec_raw": 0.974,
+  "rec_sur": 0.006,
+  "rec_pred": 0.006,
+  "mae": 0.00682320124451333
+ }
+}

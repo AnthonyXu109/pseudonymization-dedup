@@ -1,0 +1,104 @@
+{
+ "gold": {
+  "RAW": {
+   "paragraphs": 30358,
+   "removed": 5401,
+   "frac_removed": 0.17791027076882535,
+   "frac_words_removed": 0.03357842234892331,
+   "docs_affected": 1267
+  },
+  "DROP": {
+   "paragraphs": 30358,
+   "removed": 8064,
+   "frac_removed": 0.2656301469134989,
+   "frac_words_removed": 0.08211124640154137,
+   "docs_affected": 1267
+  },
+  "MASK": {
+   "paragraphs": 30358,
+   "removed": 7998,
+   "frac_removed": 0.26345609065155806,
+   "frac_words_removed": 0.0822189325998583,
+   "docs_affected": 1267
+  },
+  "TYPE": {
+   "paragraphs": 30358,
+   "removed": 7979,
+   "frac_removed": 0.26283022597009026,
+   "frac_words_removed": 0.08192461765997397,
+   "docs_affected": 1267
+  },
+  "ALIAS-DOC": {
+   "paragraphs": 30358,
+   "removed": 7396,
+   "frac_removed": 0.24362606232294617,
+   "frac_words_removed": 0.07492840805924553,
+   "docs_affected": 1267
+  },
+  "SUR-DOC": {
+   "paragraphs": 30358,
+   "removed": 4765,
+   "frac_removed": 0.15696027406284999,
+   "frac_words_removed": 0.021856457252111796,
+   "docs_affected": 1267
+  },
+  "SUR-CORPUS": {
+   "paragraphs": 30358,
+   "removed": 5272,
+   "frac_removed": 0.1736609789841228,
+   "frac_words_removed": 0.030508933591339285,
+   "docs_affected": 1267
+  }
+ },
+ "detector": {
+  "RAW": {
+   "paragraphs": 30358,
+   "removed": 5401,
+   "frac_removed": 0.17791027076882535,
+   "frac_words_removed": 0.03357842234892331,
+   "docs_affected": 1267
+  },
+  "DROP": {
+   "paragraphs": 30323,
+   "removed": 8467,
+   "frac_removed": 0.27922698941397617,
+   "frac_words_removed": 0.08345628458713347,
+   "docs_affected": 1267
+  },
+  "MASK": {
+   "paragraphs": 30326,
+   "removed": 8332,
+   "frac_removed": 0.27474774121216117,
+   "frac_words_removed": 0.08575924578778565,
+   "docs_affected": 1267
+  },
+  "TYPE": {
+   "paragraphs": 30326,
+   "removed": 8236,
+   "frac_removed": 0.2715821407373211,
+   "frac_words_removed": 0.0840376380043871,
+   "docs_affected": 1267
+  },
+  "ALIAS-DOC": {
+   "paragraphs": 30326,
+   "removed": 6987,
+   "frac_removed": 0.23039635955945392,
+   "frac_words_removed": 0.06651717209515338,
+   "docs_affected": 1266
+  },
+  "SUR-DOC": {
+   "paragraphs": 30358,
+   "removed": 3981,
+   "frac_removed": 0.13113512089070425,
+   "frac_words_removed": 0.00917726593978211,
+   "docs_affected": 1266
+  },
+  "SUR-CORPUS": {
+   "paragraphs": 30358,
+   "removed": 5379,
+   "frac_removed": 0.1771855853481784,
+   "frac_words_removed": 0.03326017895262978,
+   "docs_affected": 1267
+  }
+ }
+}

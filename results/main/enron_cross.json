@@ -1,0 +1,19 @@
+{
+ "raw_090_removed": 194,
+ "surdoc_055_removed": 193,
+ "common": 123,
+ "raw_only": 71,
+ "surdoc_only": 70,
+ "raw_only_median_words_and_id_char_share": [
+  117.0,
+  0.14814814814814814
+ ],
+ "surdoc_only_median": [
+  115.0,
+  0.05503825502459801
+ ],
+ "common_median": [
+  125.0,
+  0.03805774278215223
+ ]
+}

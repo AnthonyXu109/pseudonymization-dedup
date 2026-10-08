@@ -1,0 +1,16 @@
+{
+ "ecthr": {
+  "FAKER-DOC plain": 0.005,
+  "FAKER-DOC redetect-collapse": 0.524,
+  "ALIAS-DOC plain": 0.246,
+  "ALIAS-DOC collapse": 0.972,
+  "RAW": 0.974
+ },
+ "c4": {
+  "FAKER-DOC plain": 0.1595,
+  "FAKER-DOC redetect-collapse": 0.457,
+  "ALIAS-DOC plain": 0.5425,
+  "ALIAS-DOC collapse": 0.8975,
+  "RAW": 0.8805
+ }
+}

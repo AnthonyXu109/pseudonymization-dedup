@@ -1,0 +1,59 @@
+{
+ "RAW": {
+  "recall": "364/400",
+  "lost": 11,
+  "residual": 36
+ },
+ "KEYED-RAW": {
+  "recall": "364/400",
+  "lost": 11,
+  "residual": 36,
+  "vs_RAW": {
+   "d_lost": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "clusters_changed": 0
+  }
+ },
+ "FAKER-DOC redetect-collapse": {
+  "recall": "290/400",
+  "lost": 8,
+  "residual": 109,
+  "vs_RAW": {
+   "d_lost": -3.0,
+   "ci": [
+    -11.0,
+    3.0
+   ],
+   "clusters_changed": 5
+  }
+ },
+ "SUR-DOC redetect-collapse": {
+  "recall": "29/400",
+  "lost": 0,
+  "residual": 371,
+  "vs_RAW": {
+   "d_lost": -11.0,
+   "ci": [
+    -27.0,
+    -1.0
+   ],
+   "clusters_changed": 5
+  }
+ },
+ "ALIAS-DOC collapse": {
+  "recall": "363/400",
+  "lost": 25,
+  "residual": 37,
+  "vs_RAW": {
+   "d_lost": 14.0,
+   "ci": [
+    5.0,
+    25.0
+   ],
+   "clusters_changed": 12
+  }
+ }
+}

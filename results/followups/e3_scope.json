@@ -1,0 +1,52 @@
+{
+ "ecthr": {
+  "PERSON": {
+   "surdoc_pair_recall": 0.927,
+   "median_m_doc": 0.020369712390277406,
+   "n": 1000
+  },
+  "PERSON+LOC": {
+   "surdoc_pair_recall": 0.843,
+   "median_m_doc": 0.05215533259011523,
+   "n": 1000
+  },
+  "PERSON+LOC+DATETIME": {
+   "surdoc_pair_recall": 0.082,
+   "median_m_doc": 0.2460663528977482,
+   "n": 1000
+  },
+  "full": {
+   "surdoc_pair_recall": 0.006,
+   "median_m_doc": 0.37022696278979156,
+   "n": 1000
+  },
+  "RAW": {
+   "raw_pair_recall": 0.974
+  }
+ },
+ "c4": {
+  "PERSON": {
+   "surdoc_pair_recall": 0.69,
+   "median_m_doc": 0.02014775925525003,
+   "n": 2000
+  },
+  "PERSON+LOC": {
+   "surdoc_pair_recall": 0.5335,
+   "median_m_doc": 0.075748610363995,
+   "n": 2000
+  },
+  "PERSON+LOC+DATETIME": {
+   "surdoc_pair_recall": 0.3825,
+   "median_m_doc": 0.13490281112057612,
+   "n": 2000
+  },
+  "full": {
+   "surdoc_pair_recall": 0.1725,
+   "median_m_doc": 0.2575069608053116,
+   "n": 2000
+  },
+  "RAW": {
+   "raw_pair_recall": 0.8805
+  }
+ }
+}

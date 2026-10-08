@@ -1,0 +1,235 @@
+{
+  "analysis": "TAB_full_shingle_vs_32bit_CRC_check",
+  "provenance": {
+    "code": [
+      {
+        "path": "./followup_collision.py",
+        "sha256": "31a1b574a6bc6294c3b4c177c90124edc273935ff41afa123529573aaabb90ce"
+      },
+      {
+        "path": "./followup_science.py",
+        "sha256": "6711057ce50b414c36113115bab379af13c26862cc70116f219b26d823afd77c"
+      },
+      {
+        "path": "./analysis.py",
+        "sha256": "31d69fbed9dc3b98ce600f35931d7668e3e8c3b6d787257acd7862495e2bd6c5"
+      },
+      {
+        "path": "./FOLLOWUP_SCIENCE_PROTOCOL_20261004.md",
+        "sha256": "60f772bb67c9548ae5ef530e2350110a733bfe9ffb08d2fbfe91d63d8bf8cea2"
+      },
+      {
+        "path": "./pseudonymization-dedup/xcur/common.py",
+        "sha256": "e13464900df279a194656d5416af9b4134f7faea1c21d757ad175ef2f6504877"
+      },
+      {
+        "path": "./pseudonymization-dedup/xcur/build_corpus.py",
+        "sha256": "769caf22eca96ee926526bb44fe5a87b4cb82095be677029f1db516e7ea28685"
+      }
+    ],
+    "created_utc": "2026-10-05T04:06:52.079145+00:00",
+    "peak_rss_bytes": 994459648,
+    "tab_inputs": [
+      {
+        "bytes": 12643092,
+        "path": "./data/20261001/tab/echr_dev.json",
+        "sha256": "8c3c7306f46b8d54debeb38ae11d8b0b8bcf4bdccbc3b6f13c12ad7be16893ec"
+      },
+      {
+        "bytes": 13103290,
+        "path": "./data/20261001/tab/echr_test.json",
+        "sha256": "cd0f0f15f84a8739654c7cf30c6be8ce27b051ef73974d39d792a0cb8c846379"
+      },
+      {
+        "bytes": 47503662,
+        "path": "./data/20261001/tab/echr_train.json",
+        "sha256": "4aba41f8ac305ff9e93dd6f0bbc16756e57e9ace396c827931fab70e18d8c6a6"
+      }
+    ]
+  },
+  "rows": {
+    "MASK": {
+      "collisions": {
+        "distinct_crc_ids": 1003517,
+        "distinct_text_shingles": 1003631,
+        "true_collisions": 114
+      },
+      "max_pair_jaccard_absolute_difference": 0.0,
+      "original_copy_pair_count": 400,
+      "threshold_pair_decisions": {
+        "0.5": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.6": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.7": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.8": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.9": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        }
+      }
+    },
+    "RAW": {
+      "collisions": {
+        "distinct_crc_ids": 1170978,
+        "distinct_text_shingles": 1171134,
+        "true_collisions": 156
+      },
+      "full_graph_at_0_70": {
+        "component_assignment_changes": 0,
+        "crc_copies_detected": 364,
+        "crc_distinct_cases_lost": 11,
+        "crc_minus_full_lost_case_ids": [],
+        "edge_status_changes": 0,
+        "full_copies_detected": 364,
+        "full_distinct_cases_lost": 11,
+        "full_minus_crc_lost_case_ids": []
+      },
+      "max_pair_jaccard_absolute_difference": 0.0,
+      "original_copy_pair_count": 400,
+      "threshold_pair_decisions": {
+        "0.5": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.6": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.7": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.8": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.9": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        }
+      }
+    },
+    "SUR-CORPUS": {
+      "collisions": {
+        "distinct_crc_ids": 1181252,
+        "distinct_text_shingles": 1181406,
+        "true_collisions": 154
+      },
+      "max_pair_jaccard_absolute_difference": 0.0,
+      "original_copy_pair_count": 400,
+      "threshold_pair_decisions": {
+        "0.5": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.6": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.7": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.8": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.9": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        }
+      }
+    },
+    "SUR-DOC": {
+      "collisions": {
+        "distinct_crc_ids": 1343261,
+        "distinct_text_shingles": 1343454,
+        "true_collisions": 193
+      },
+      "full_graph_at_0_70": {
+        "component_assignment_changes": 0,
+        "crc_copies_detected": 17,
+        "crc_distinct_cases_lost": 0,
+        "crc_minus_full_lost_case_ids": [],
+        "edge_status_changes": 0,
+        "full_copies_detected": 17,
+        "full_distinct_cases_lost": 0,
+        "full_minus_crc_lost_case_ids": []
+      },
+      "max_pair_jaccard_absolute_difference": 0.0,
+      "original_copy_pair_count": 400,
+      "threshold_pair_decisions": {
+        "0.5": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.6": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.7": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.8": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.9": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        }
+      }
+    },
+    "TYPE": {
+      "collisions": {
+        "distinct_crc_ids": 1008896,
+        "distinct_text_shingles": 1009005,
+        "true_collisions": 109
+      },
+      "max_pair_jaccard_absolute_difference": 0.0,
+      "original_copy_pair_count": 400,
+      "threshold_pair_decisions": {
+        "0.5": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.6": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.7": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.8": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        },
+        "0.9": {
+          "offending_case_ids": [],
+          "status_changes": 0
+        }
+      }
+    }
+  },
+  "status": "exploratory_follow_up_on_seen_TAB_data",
+  "thresholds": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ]
+}

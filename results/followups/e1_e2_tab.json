@@ -1,0 +1,124 @@
+{
+ "RAW (gold)": {
+  "recall": "364/400",
+  "lost": 11,
+  "residual_dups": 36
+ },
+ "SUR-CORPUS (gold)": {
+  "recall": "364/400",
+  "lost": 5,
+  "residual_dups": 36,
+  "vs_RAW": {
+   "d_lost": -6.0,
+   "ci": [
+    -14.0,
+    -1.0
+   ],
+   "clusters_changed": 4
+  }
+ },
+ "MASK (gold)": {
+  "recall": "363/400",
+  "lost": 25,
+  "residual_dups": 37,
+  "vs_RAW": {
+   "d_lost": 14.0,
+   "ci": [
+    5.0,
+    25.0
+   ],
+   "clusters_changed": 12
+  }
+ },
+ "TYPE (gold)": {
+  "recall": "363/400",
+  "lost": 25,
+  "residual_dups": 37,
+  "vs_RAW": {
+   "d_lost": 14.0,
+   "ci": [
+    5.0,
+    25.0
+   ],
+   "clusters_changed": 12
+  }
+ },
+ "SUR-DOC (gold)": {
+  "recall": "17/400",
+  "lost": 0,
+  "residual_dups": 383,
+  "vs_RAW": {
+   "d_lost": -11.0,
+   "ci": [
+    -27.0,
+    -1.0
+   ],
+   "clusters_changed": 5
+  }
+ },
+ "SUR-DOC-COLLAPSED (gold)": {
+  "recall": "368/400",
+  "lost": 25,
+  "residual_dups": 32,
+  "vs_RAW": {
+   "d_lost": 14.0,
+   "ci": [
+    5.0,
+    25.0
+   ],
+   "clusters_changed": 12
+  }
+ },
+ "HASH-COLLAPSED (gold)": {
+  "recall": "361/400",
+  "lost": 25,
+  "residual_dups": 39,
+  "vs_RAW": {
+   "d_lost": 14.0,
+   "ci": [
+    5.0,
+    25.0
+   ],
+   "clusters_changed": 12
+  }
+ },
+ "SUR-CORPUS detector/detector": {
+  "recall": "364/400",
+  "lost": 11,
+  "residual_dups": 36,
+  "vs_RAW": {
+   "d_lost": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "clusters_changed": 0
+  }
+ },
+ "SUR-CORPUS gold/lg-detector": {
+  "recall": "20/400",
+  "lost": 4,
+  "residual_dups": 379,
+  "vs_RAW": {
+   "d_lost": -7.0,
+   "ci": [
+    -17.0,
+    -1.0
+   ],
+   "clusters_changed": 4
+  }
+ },
+ "SUR-CORPUS lg/sm": {
+  "recall": "285/400",
+  "lost": 10,
+  "residual_dups": 114,
+  "vs_RAW": {
+   "d_lost": -1.0,
+   "ci": [
+    -3.0,
+    0.0
+   ],
+   "clusters_changed": 1
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "TAB gold|holds": {
+  "n": 4,
+  "mae": 2.7755575615628914e-17,
+  "max": 5.551115123125783e-17
+ },
+ "TAB gold|violated": {
+  "n": 396,
+  "mae": 0.0002540180647610871,
+  "max": 0.004914933837429136
+ },
+ "TAB detector|holds": {
+  "n": 0,
+  "mae": null,
+  "max": null
+ },
+ "TAB detector|violated": {
+  "n": 400,
+  "mae": 0.0005599290330846394,
+  "max": 0.008300850406113558
+ },
+ "Enron detector|holds": {
+  "n": 485,
+  "mae": 3.342830021954482e-17,
+  "max": 2.220446049250313e-16
+ },
+ "Enron detector|violated": {
+  "n": 515,
+  "mae": 0.00023982410422952386,
+  "max": 0.016637421199714064
+ },
+ "Enron natural|holds": {
+  "n": 391,
+  "mae": 4.221899897032045e-17,
+  "max": 2.220446049250313e-16
+ },
+ "Enron natural|violated": {
+  "n": 948,
+  "mae": 0.00023748393279116275,
+  "max": 0.016639993486485705
+ },
+ "Enron Dolma-like|holds": {
+  "n": 974,
+  "mae": 3.9325148202841784e-18,
+  "max": 2.220446049250313e-16
+ },
+ "Enron Dolma-like|violated": {
+  "n": 26,
+  "mae": 0.0002671068984066764,
+  "max": 0.006944779358572517
+ },
+ "TAB second-source|holds": {
+  "n": 0,
+  "mae": null,
+  "max": null
+ },
+ "TAB second-source|violated": {
+  "n": 400,
+  "mae": 0.0006278407960360158,
+  "max": 0.005919972344654745
+ },
+ "Enron second-source|holds": {
+  "n": 444,
+  "mae": 3.116251000988967e-17,
+  "max": 1.6653345369377348e-16
+ },
+ "Enron second-source|violated": {
+  "n": 556,
+  "mae": 0.0002823762721443464,
+  "max": 0.03163586164583165
+ },
+ "ECtHR second-source|holds": {
+  "n": 0,
+  "mae": null,
+  "max": null
+ },
+ "ECtHR second-source|violated": {
+  "n": 1000,
+  "mae": 0.0009867456444327875,
+  "max": 0.016470204245596864
+ },
+ "Web second-source|holds": {
+  "n": 442,
+  "mae": 3.422742858369623e-17,
+  "max": 2.220446049250313e-16
+ },
+ "Web second-source|violated": {
+  "n": 1558,
+  "mae": 0.0006780555929295199,
+  "max": 0.04629629629629639
+ },
+ "ALL|holds": {
+  "n": 2740,
+  "mae": 2.3951213072875396e-17,
+  "max": 2.220446049250313e-16
+ },
+ "ALL|violated": {
+  "n": 5799,
+  "mae": 0.0005399975016633367,
+  "max": 0.04629629629629639
+ }
+}

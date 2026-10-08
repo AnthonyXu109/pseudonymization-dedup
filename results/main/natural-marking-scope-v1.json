@@ -1,0 +1,456 @@
+{
+  "analysis": "natural_revision_marking_scope_sensitivity",
+  "arms": {
+    "DENSE": {
+      "eligible_pairs": 105,
+      "median_marked_token_share": 0.19643537144178524,
+      "median_touched_shingle_share": 0.4925932123704111,
+      "metrics": {
+        "MASK": {
+          "component_hits": 105,
+          "component_recall": 1.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9804878234863281,
+          "pair_hits": 105,
+          "pair_recall": 1.0,
+          "paired_difference_vs_RAW": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0,
+            "replicates": 2000,
+            "resampling_unit": "page_id"
+          }
+        },
+        "RAW": {
+          "component_hits": 105,
+          "component_recall": 1.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9818037748336792,
+          "pair_hits": 105,
+          "pair_recall": 1.0,
+          "paired_difference_vs_RAW": null
+        },
+        "SUR-CORPUS": {
+          "component_hits": 105,
+          "component_recall": 1.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9805447459220886,
+          "pair_hits": 105,
+          "pair_recall": 1.0,
+          "paired_difference_vs_RAW": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0,
+            "replicates": 2000,
+            "resampling_unit": "page_id"
+          }
+        },
+        "SUR-DOC": {
+          "component_hits": 0,
+          "component_recall": 0.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.32834330201148987,
+          "pair_hits": 0,
+          "pair_recall": 0.0,
+          "paired_difference_vs_RAW": {
+            "ci95": [
+              -1.0,
+              -1.0
+            ],
+            "estimate": -1.0,
+            "replicates": 2000,
+            "resampling_unit": "page_id"
+          }
+        }
+      },
+      "pages_with_any_marking": 105,
+      "scope": "DENSE",
+      "touched_shingle_share_range": [
+        0.32093536246113563,
+        0.6869316777646126
+      ]
+    },
+    "SPACY_SM": {
+      "eligible_pairs": 105,
+      "median_marked_token_share": 0.22957438998473756,
+      "median_touched_shingle_share": 0.5065123078374045,
+      "metrics": {
+        "MASK": {
+          "component_hits": 105,
+          "component_recall": 1.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9796333909034729,
+          "pair_hits": 105,
+          "pair_recall": 1.0,
+          "paired_difference_vs_RAW": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0,
+            "replicates": 2000,
+            "resampling_unit": "page_id"
+          }
+        },
+        "RAW": {
+          "component_hits": 105,
+          "component_recall": 1.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9818037748336792,
+          "pair_hits": 105,
+          "pair_recall": 1.0,
+          "paired_difference_vs_RAW": null
+        },
+        "SUR-CORPUS": {
+          "component_hits": 105,
+          "component_recall": 1.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9801802039146423,
+          "pair_hits": 105,
+          "pair_recall": 1.0,
+          "paired_difference_vs_RAW": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0,
+            "replicates": 2000,
+            "resampling_unit": "page_id"
+          }
+        },
+        "SUR-DOC": {
+          "component_hits": 0,
+          "component_recall": 0.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.3078034818172455,
+          "pair_hits": 0,
+          "pair_recall": 0.0,
+          "paired_difference_vs_RAW": {
+            "ci95": [
+              -1.0,
+              -1.0
+            ],
+            "estimate": -1.0,
+            "replicates": 2000,
+            "resampling_unit": "page_id"
+          }
+        }
+      },
+      "pages_with_any_marking": 105,
+      "scope": "SPACY_SM",
+      "touched_shingle_share_range": [
+        0.3477170336229537,
+        0.7636761108916928
+      ]
+    },
+    "TITLE_NAME": {
+      "eligible_pairs": 105,
+      "median_marked_token_share": 0.1572130461271646,
+      "median_touched_shingle_share": 0.35678970548234573,
+      "metrics": {
+        "MASK": {
+          "component_hits": 105,
+          "component_recall": 1.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9805149435997009,
+          "pair_hits": 105,
+          "pair_recall": 1.0,
+          "paired_difference_vs_RAW": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0,
+            "replicates": 2000,
+            "resampling_unit": "page_id"
+          }
+        },
+        "RAW": {
+          "component_hits": 105,
+          "component_recall": 1.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9818037748336792,
+          "pair_hits": 105,
+          "pair_recall": 1.0,
+          "paired_difference_vs_RAW": null
+        },
+        "SUR-CORPUS": {
+          "component_hits": 105,
+          "component_recall": 1.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9805447459220886,
+          "pair_hits": 105,
+          "pair_recall": 1.0,
+          "paired_difference_vs_RAW": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0,
+            "replicates": 2000,
+            "resampling_unit": "page_id"
+          }
+        },
+        "SUR-DOC": {
+          "component_hits": 0,
+          "component_recall": 0.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.4531034529209137,
+          "pair_hits": 0,
+          "pair_recall": 0.0,
+          "paired_difference_vs_RAW": {
+            "ci95": [
+              -1.0,
+              -1.0
+            ],
+            "estimate": -1.0,
+            "replicates": 2000,
+            "resampling_unit": "page_id"
+          }
+        }
+      },
+      "pages_with_any_marking": 105,
+      "scope": "TITLE_NAME",
+      "touched_shingle_share_range": [
+        0.14544751025079328,
+        0.5870255307056941
+      ]
+    },
+    "TITLE_ONLY": {
+      "eligible_pairs": 105,
+      "median_marked_token_share": 0.011363636363636364,
+      "median_touched_shingle_share": 0.032617677202912275,
+      "metrics": {
+        "MASK": {
+          "component_hits": 105,
+          "component_recall": 1.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9817460179328918,
+          "pair_hits": 105,
+          "pair_recall": 1.0,
+          "paired_difference_vs_RAW": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0,
+            "replicates": 2000,
+            "resampling_unit": "page_id"
+          }
+        },
+        "RAW": {
+          "component_hits": 105,
+          "component_recall": 1.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9818037748336792,
+          "pair_hits": 105,
+          "pair_recall": 1.0,
+          "paired_difference_vs_RAW": null
+        },
+        "SUR-CORPUS": {
+          "component_hits": 105,
+          "component_recall": 1.0,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9818037748336792,
+          "pair_hits": 105,
+          "pair_recall": 1.0,
+          "paired_difference_vs_RAW": {
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0,
+            "replicates": 2000,
+            "resampling_unit": "page_id"
+          }
+        },
+        "SUR-DOC": {
+          "component_hits": 104,
+          "component_recall": 0.9904761904761905,
+          "distinct_page_ids_lost": 0,
+          "median_pair_jaccard": 0.9095378518104553,
+          "pair_hits": 104,
+          "pair_recall": 0.9904761904761905,
+          "paired_difference_vs_RAW": {
+            "ci95": [
+              -0.02857142857142857,
+              0.0
+            ],
+            "estimate": -0.009523809523809525,
+            "replicates": 2000,
+            "resampling_unit": "page_id"
+          }
+        }
+      },
+      "pages_with_any_marking": 102,
+      "scope": "TITLE_ONLY",
+      "touched_shingle_share_range": [
+        0.0,
+        0.07894415499837187
+      ]
+    }
+  },
+  "cohort_page_ids": [
+    22138499,
+    35291728,
+    8344499,
+    5637475,
+    12015048,
+    5781851,
+    953249,
+    62430872,
+    26447389,
+    43182071,
+    47992014,
+    44312837,
+    347587,
+    52745282,
+    49229709,
+    61538688,
+    55830105,
+    45653434,
+    2015815,
+    2092013,
+    6709810,
+    22568383,
+    43705607,
+    4769140,
+    71250304,
+    55366533,
+    21995355,
+    52017420,
+    63152169,
+    60765059,
+    77566469,
+    60194528,
+    48608633,
+    64095016,
+    78172258,
+    22264766,
+    69505655,
+    37267146,
+    58097207,
+    7519608,
+    3159526,
+    73455647,
+    44320437,
+    32733723,
+    25414037,
+    31043516,
+    34581220,
+    59771800,
+    14203644,
+    40609396,
+    78923884,
+    6952285,
+    26439468,
+    64521730,
+    65699950,
+    53841468,
+    3535177,
+    63183000,
+    40091705,
+    64222495,
+    48397907,
+    80296930,
+    25536595,
+    8826417,
+    31276841,
+    37635738,
+    34985829,
+    10921496,
+    45043985,
+    5277685,
+    39128449,
+    25381393,
+    5569959,
+    51599294,
+    80192590,
+    54008139,
+    991983,
+    66147623,
+    25016631,
+    9748061,
+    15051191,
+    31822014,
+    60876650,
+    1762019,
+    36810926,
+    40002678,
+    44728784,
+    1812163,
+    804253,
+    55474423,
+    4446832,
+    58334711,
+    41361862,
+    77121157,
+    59768373,
+    42924836,
+    55932515,
+    49694567,
+    53672071,
+    73685983,
+    45671210,
+    11757469,
+    4154223,
+    43706621,
+    52559319
+  ],
+  "provenance": {
+    "code": [
+      {
+        "path": "./followup_natural_scope.py",
+        "sha256": "7730d3e7609c7ffebc613e10e26d33495bbb0b8ef95b6c45a0a23525d580a02b"
+      },
+      {
+        "path": "./followup_science.py",
+        "sha256": "6711057ce50b414c36113115bab379af13c26862cc70116f219b26d823afd77c"
+      },
+      {
+        "path": "./natural_revision.py",
+        "sha256": "ba405b890d1a10baf8b78babb0a4abc885fa0a01725402d5333c0e345369f910"
+      },
+      {
+        "path": "./FOLLOWUP_SCIENCE_PROTOCOL_20261004.md",
+        "sha256": "60f772bb67c9548ae5ef530e2350110a733bfe9ffb08d2fbfe91d63d8bf8cea2"
+      }
+    ],
+    "created_utc": "2026-10-05T04:10:23.844469+00:00",
+    "frozen_result_sha256": "0d16ee09837f790f59113becd66e7df9f478d72cc1d020e3c973ced6d8f0aceb",
+    "input_files": [
+      {
+        "path": "./data/20261004/natural-revisions/category.json",
+        "sha256": "dcda4ca0e11892be8af4df32337782cd6d7ee6571e2abbf4d2efda2c168511bd"
+      },
+      {
+        "path": "./data/20261004/natural-revisions/revisions.jsonl",
+        "sha256": "201deb94bfd4c2ecc1483297a8e833c2291b27e768262b786c069884e31c212a"
+      },
+      {
+        "path": "./data/20261004/natural-revisions/revisions-retry-1.jsonl",
+        "sha256": "ece0f85ff95e1938cb94ca5d1ba586744c8c66ba8e0119fc1e34c9ba83ba0ce7"
+      },
+      {
+        "path": "./data/20261004/natural-revisions/revisions-retry-2.jsonl",
+        "sha256": "e7f83b93ae7306e2dec6bb6b59cc34dd9ee344f64d2e952830f3d1db83f8bf47"
+      }
+    ],
+    "model": {
+      "license": "MIT",
+      "model_metadata_path": "./models/spacy-sm-3.8-env/lib/python3.12/site-packages/en_core_web_sm/en_core_web_sm-3.8.0/meta.json",
+      "model_metadata_sha256": "7456349002fa8cf31111051bd37fdbea67a1b7f7a0a60ce235466f98a6758125",
+      "model_wheel_path": "./models/en_core_web_sm-3.8.0-py3-none-any.whl",
+      "model_wheel_sha256": "1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85",
+      "name": "en_core_web_sm",
+      "spacy_version": "3.8.16",
+      "version": "3.8.0"
+    },
+    "peak_rss_bytes": 971538432
+  },
+  "status": "exploratory_follow_up_on_seen_revision_cohort"
+}

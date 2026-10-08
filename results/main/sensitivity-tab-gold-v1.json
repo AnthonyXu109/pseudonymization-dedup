@@ -1,0 +1,721 @@
+{
+  "analysis": "controlled_marked_span_omission_sensitivity",
+  "baseline": {
+    "SUR-CORPUS": {
+      "direct_pair_recall": 0.91,
+      "distinct_cases_lost": 5,
+      "pipeline_recall": 0.91
+    },
+    "SUR-DOC": {
+      "direct_pair_recall": 0.0425,
+      "distinct_cases_lost": 0,
+      "pipeline_recall": 0.0425
+    }
+  },
+  "decision_strategies": [
+    "SUR-DOC",
+    "SUR-CORPUS"
+  ],
+  "percent_requested": 20,
+  "provenance": {
+    "baseline_path": "./runs/20261001/order-tab-gold-v1.json",
+    "baseline_sha256": "448d4f5142776526d194d7a049b7b64c0d74021370e145d960b8638821780f08",
+    "code": [
+      {
+        "path": "./run_sensitivity.py",
+        "sha256": "c3fd0559de3e8b3dc7834c62c93922d9428105294d9fcd44f1364654f98d9bab"
+      },
+      {
+        "path": "./sensitivity.py",
+        "sha256": "79546e412f312d62d4dff41ff100c27256053da30bc686e752a0c6a01ddefa3d"
+      },
+      {
+        "path": "./analysis.py",
+        "sha256": "31d69fbed9dc3b98ce600f35931d7668e3e8c3b6d787257acd7862495e2bd6c5"
+      },
+      {
+        "path": "./PROTOCOL.md",
+        "sha256": "0870a1fa32eb3e6378e33562b1920f454d8caf178bdb7bed7237b83e41b9ac57"
+      },
+      {
+        "path": "./pseudonymization-dedup/xcur/common.py",
+        "sha256": "e13464900df279a194656d5416af9b4134f7faea1c21d757ad175ef2f6504877"
+      },
+      {
+        "path": "./pseudonymization-dedup/xcur/build_corpus.py",
+        "sha256": "769caf22eca96ee926526bb44fe5a87b4cb82095be677029f1db516e7ea28685"
+      }
+    ],
+    "created_utc": "2026-10-02T07:05:09.253742+00:00",
+    "peak_rss_bytes": 634748928,
+    "tab_inputs": [
+      {
+        "bytes": 12643092,
+        "path": "./data/20261001/tab/echr_dev.json",
+        "sha256": "8c3c7306f46b8d54debeb38ae11d8b0b8bcf4bdccbc3b6f13c12ad7be16893ec"
+      },
+      {
+        "bytes": 13103290,
+        "path": "./data/20261001/tab/echr_test.json",
+        "sha256": "cd0f0f15f84a8739654c7cf30c6be8ce27b051ef73974d39d792a0cb8c846379"
+      },
+      {
+        "bytes": 47503662,
+        "path": "./data/20261001/tab/echr_train.json",
+        "sha256": "4aba41f8ac305ff9e93dd6f0bbc16756e57e9ace396c827931fab70e18d8c6a6"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "copies_detected_in_component": 20,
+      "decision": "SUR-DOC",
+      "direct_pair_recall": 0.05,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "entity",
+      "percent_requested": 20,
+      "pipeline_recall": 0.05,
+      "qa": {
+        "dropped_entity_units": 12859,
+        "dropped_mention_units": null,
+        "inconsistent_within_document_pair_fraction": 0.0,
+        "inconsistent_within_document_pairs": 0,
+        "mentions_dropped": 17349,
+        "mentions_total": 87037,
+        "mode": "entity",
+        "percent_requested": 20,
+        "seed": 0,
+        "units_dropped": 12859,
+        "units_total": 64297,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 0
+    },
+    {
+      "copies_detected_in_component": 231,
+      "decision": "SUR-CORPUS",
+      "direct_pair_recall": 0.5775,
+      "distinct_cases_lost": 1,
+      "lost_case_ids": [
+        765
+      ],
+      "omission_mode": "entity",
+      "percent_requested": 20,
+      "pipeline_recall": 0.5775,
+      "qa": {
+        "dropped_entity_units": 12859,
+        "dropped_mention_units": null,
+        "inconsistent_within_document_pair_fraction": 0.0,
+        "inconsistent_within_document_pairs": 0,
+        "mentions_dropped": 17349,
+        "mentions_total": 87037,
+        "mode": "entity",
+        "percent_requested": 20,
+        "seed": 0,
+        "units_dropped": 12859,
+        "units_total": 64297,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 0
+    },
+    {
+      "copies_detected_in_component": 17,
+      "decision": "SUR-DOC",
+      "direct_pair_recall": 0.0425,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "entity",
+      "percent_requested": 20,
+      "pipeline_recall": 0.0425,
+      "qa": {
+        "dropped_entity_units": 12859,
+        "dropped_mention_units": null,
+        "inconsistent_within_document_pair_fraction": 0.0,
+        "inconsistent_within_document_pairs": 0,
+        "mentions_dropped": 17300,
+        "mentions_total": 87037,
+        "mode": "entity",
+        "percent_requested": 20,
+        "seed": 1,
+        "units_dropped": 12859,
+        "units_total": 64297,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 1
+    },
+    {
+      "copies_detected_in_component": 238,
+      "decision": "SUR-CORPUS",
+      "direct_pair_recall": 0.595,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "entity",
+      "percent_requested": 20,
+      "pipeline_recall": 0.595,
+      "qa": {
+        "dropped_entity_units": 12859,
+        "dropped_mention_units": null,
+        "inconsistent_within_document_pair_fraction": 0.0,
+        "inconsistent_within_document_pairs": 0,
+        "mentions_dropped": 17300,
+        "mentions_total": 87037,
+        "mode": "entity",
+        "percent_requested": 20,
+        "seed": 1,
+        "units_dropped": 12859,
+        "units_total": 64297,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 1
+    },
+    {
+      "copies_detected_in_component": 21,
+      "decision": "SUR-DOC",
+      "direct_pair_recall": 0.0525,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "entity",
+      "percent_requested": 20,
+      "pipeline_recall": 0.0525,
+      "qa": {
+        "dropped_entity_units": 12859,
+        "dropped_mention_units": null,
+        "inconsistent_within_document_pair_fraction": 0.0,
+        "inconsistent_within_document_pairs": 0,
+        "mentions_dropped": 17268,
+        "mentions_total": 87037,
+        "mode": "entity",
+        "percent_requested": 20,
+        "seed": 2,
+        "units_dropped": 12859,
+        "units_total": 64297,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 2
+    },
+    {
+      "copies_detected_in_component": 245,
+      "decision": "SUR-CORPUS",
+      "direct_pair_recall": 0.6125,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "entity",
+      "percent_requested": 20,
+      "pipeline_recall": 0.6125,
+      "qa": {
+        "dropped_entity_units": 12859,
+        "dropped_mention_units": null,
+        "inconsistent_within_document_pair_fraction": 0.0,
+        "inconsistent_within_document_pairs": 0,
+        "mentions_dropped": 17268,
+        "mentions_total": 87037,
+        "mode": "entity",
+        "percent_requested": 20,
+        "seed": 2,
+        "units_dropped": 12859,
+        "units_total": 64297,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 2
+    },
+    {
+      "copies_detected_in_component": 19,
+      "decision": "SUR-DOC",
+      "direct_pair_recall": 0.0475,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "entity",
+      "percent_requested": 20,
+      "pipeline_recall": 0.0475,
+      "qa": {
+        "dropped_entity_units": 12859,
+        "dropped_mention_units": null,
+        "inconsistent_within_document_pair_fraction": 0.0,
+        "inconsistent_within_document_pairs": 0,
+        "mentions_dropped": 17611,
+        "mentions_total": 87037,
+        "mode": "entity",
+        "percent_requested": 20,
+        "seed": 3,
+        "units_dropped": 12859,
+        "units_total": 64297,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 3
+    },
+    {
+      "copies_detected_in_component": 242,
+      "decision": "SUR-CORPUS",
+      "direct_pair_recall": 0.605,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "entity",
+      "percent_requested": 20,
+      "pipeline_recall": 0.605,
+      "qa": {
+        "dropped_entity_units": 12859,
+        "dropped_mention_units": null,
+        "inconsistent_within_document_pair_fraction": 0.0,
+        "inconsistent_within_document_pairs": 0,
+        "mentions_dropped": 17611,
+        "mentions_total": 87037,
+        "mode": "entity",
+        "percent_requested": 20,
+        "seed": 3,
+        "units_dropped": 12859,
+        "units_total": 64297,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 3
+    },
+    {
+      "copies_detected_in_component": 19,
+      "decision": "SUR-DOC",
+      "direct_pair_recall": 0.0475,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "entity",
+      "percent_requested": 20,
+      "pipeline_recall": 0.0475,
+      "qa": {
+        "dropped_entity_units": 12859,
+        "dropped_mention_units": null,
+        "inconsistent_within_document_pair_fraction": 0.0,
+        "inconsistent_within_document_pairs": 0,
+        "mentions_dropped": 17454,
+        "mentions_total": 87037,
+        "mode": "entity",
+        "percent_requested": 20,
+        "seed": 4,
+        "units_dropped": 12859,
+        "units_total": 64297,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 4
+    },
+    {
+      "copies_detected_in_component": 234,
+      "decision": "SUR-CORPUS",
+      "direct_pair_recall": 0.585,
+      "distinct_cases_lost": 1,
+      "lost_case_ids": [
+        765
+      ],
+      "omission_mode": "entity",
+      "percent_requested": 20,
+      "pipeline_recall": 0.585,
+      "qa": {
+        "dropped_entity_units": 12859,
+        "dropped_mention_units": null,
+        "inconsistent_within_document_pair_fraction": 0.0,
+        "inconsistent_within_document_pairs": 0,
+        "mentions_dropped": 17454,
+        "mentions_total": 87037,
+        "mode": "entity",
+        "percent_requested": 20,
+        "seed": 4,
+        "units_dropped": 12859,
+        "units_total": 64297,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 4
+    },
+    {
+      "copies_detected_in_component": 20,
+      "decision": "SUR-DOC",
+      "direct_pair_recall": 0.05,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "mention",
+      "percent_requested": 20,
+      "pipeline_recall": 0.05,
+      "qa": {
+        "dropped_entity_units": null,
+        "dropped_mention_units": 17407,
+        "inconsistent_within_document_pair_fraction": 0.31955788962033876,
+        "inconsistent_within_document_pairs": 30242,
+        "mentions_dropped": 17407,
+        "mentions_total": 87037,
+        "mode": "mention",
+        "percent_requested": 20,
+        "seed": 0,
+        "units_dropped": 17407,
+        "units_total": 87037,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 0
+    },
+    {
+      "copies_detected_in_component": 237,
+      "decision": "SUR-CORPUS",
+      "direct_pair_recall": 0.5925,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "mention",
+      "percent_requested": 20,
+      "pipeline_recall": 0.5925,
+      "qa": {
+        "dropped_entity_units": null,
+        "dropped_mention_units": 17407,
+        "inconsistent_within_document_pair_fraction": 0.31955788962033876,
+        "inconsistent_within_document_pairs": 30242,
+        "mentions_dropped": 17407,
+        "mentions_total": 87037,
+        "mode": "mention",
+        "percent_requested": 20,
+        "seed": 0,
+        "units_dropped": 17407,
+        "units_total": 87037,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 0
+    },
+    {
+      "copies_detected_in_component": 19,
+      "decision": "SUR-DOC",
+      "direct_pair_recall": 0.0475,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "mention",
+      "percent_requested": 20,
+      "pipeline_recall": 0.0475,
+      "qa": {
+        "dropped_entity_units": null,
+        "dropped_mention_units": 17407,
+        "inconsistent_within_document_pair_fraction": 0.31442247746653,
+        "inconsistent_within_document_pairs": 29756,
+        "mentions_dropped": 17407,
+        "mentions_total": 87037,
+        "mode": "mention",
+        "percent_requested": 20,
+        "seed": 1,
+        "units_dropped": 17407,
+        "units_total": 87037,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 1
+    },
+    {
+      "copies_detected_in_component": 249,
+      "decision": "SUR-CORPUS",
+      "direct_pair_recall": 0.6225,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "mention",
+      "percent_requested": 20,
+      "pipeline_recall": 0.6225,
+      "qa": {
+        "dropped_entity_units": null,
+        "dropped_mention_units": 17407,
+        "inconsistent_within_document_pair_fraction": 0.31442247746653,
+        "inconsistent_within_document_pairs": 29756,
+        "mentions_dropped": 17407,
+        "mentions_total": 87037,
+        "mode": "mention",
+        "percent_requested": 20,
+        "seed": 1,
+        "units_dropped": 17407,
+        "units_total": 87037,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 1
+    },
+    {
+      "copies_detected_in_component": 20,
+      "decision": "SUR-DOC",
+      "direct_pair_recall": 0.05,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "mention",
+      "percent_requested": 20,
+      "pipeline_recall": 0.05,
+      "qa": {
+        "dropped_entity_units": null,
+        "dropped_mention_units": 17407,
+        "inconsistent_within_document_pair_fraction": 0.3221784291556157,
+        "inconsistent_within_document_pairs": 30490,
+        "mentions_dropped": 17407,
+        "mentions_total": 87037,
+        "mode": "mention",
+        "percent_requested": 20,
+        "seed": 2,
+        "units_dropped": 17407,
+        "units_total": 87037,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 2
+    },
+    {
+      "copies_detected_in_component": 232,
+      "decision": "SUR-CORPUS",
+      "direct_pair_recall": 0.58,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "mention",
+      "percent_requested": 20,
+      "pipeline_recall": 0.58,
+      "qa": {
+        "dropped_entity_units": null,
+        "dropped_mention_units": 17407,
+        "inconsistent_within_document_pair_fraction": 0.3221784291556157,
+        "inconsistent_within_document_pairs": 30490,
+        "mentions_dropped": 17407,
+        "mentions_total": 87037,
+        "mode": "mention",
+        "percent_requested": 20,
+        "seed": 2,
+        "units_dropped": 17407,
+        "units_total": 87037,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 2
+    },
+    {
+      "copies_detected_in_component": 17,
+      "decision": "SUR-DOC",
+      "direct_pair_recall": 0.0425,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "mention",
+      "percent_requested": 20,
+      "pipeline_recall": 0.0425,
+      "qa": {
+        "dropped_entity_units": null,
+        "dropped_mention_units": 17407,
+        "inconsistent_within_document_pair_fraction": 0.32143876073840044,
+        "inconsistent_within_document_pairs": 30420,
+        "mentions_dropped": 17407,
+        "mentions_total": 87037,
+        "mode": "mention",
+        "percent_requested": 20,
+        "seed": 3,
+        "units_dropped": 17407,
+        "units_total": 87037,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 3
+    },
+    {
+      "copies_detected_in_component": 237,
+      "decision": "SUR-CORPUS",
+      "direct_pair_recall": 0.5925,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "mention",
+      "percent_requested": 20,
+      "pipeline_recall": 0.5925,
+      "qa": {
+        "dropped_entity_units": null,
+        "dropped_mention_units": 17407,
+        "inconsistent_within_document_pair_fraction": 0.32143876073840044,
+        "inconsistent_within_document_pairs": 30420,
+        "mentions_dropped": 17407,
+        "mentions_total": 87037,
+        "mode": "mention",
+        "percent_requested": 20,
+        "seed": 3,
+        "units_dropped": 17407,
+        "units_total": 87037,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 3
+    },
+    {
+      "copies_detected_in_component": 19,
+      "decision": "SUR-DOC",
+      "direct_pair_recall": 0.0475,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "mention",
+      "percent_requested": 20,
+      "pipeline_recall": 0.0475,
+      "qa": {
+        "dropped_entity_units": null,
+        "dropped_mention_units": 17407,
+        "inconsistent_within_document_pair_fraction": 0.321681794646914,
+        "inconsistent_within_document_pairs": 30443,
+        "mentions_dropped": 17407,
+        "mentions_total": 87037,
+        "mode": "mention",
+        "percent_requested": 20,
+        "seed": 4,
+        "units_dropped": 17407,
+        "units_total": 87037,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 4
+    },
+    {
+      "copies_detected_in_component": 233,
+      "decision": "SUR-CORPUS",
+      "direct_pair_recall": 0.5825,
+      "distinct_cases_lost": 0,
+      "lost_case_ids": [],
+      "omission_mode": "mention",
+      "percent_requested": 20,
+      "pipeline_recall": 0.5825,
+      "qa": {
+        "dropped_entity_units": null,
+        "dropped_mention_units": 17407,
+        "inconsistent_within_document_pair_fraction": 0.321681794646914,
+        "inconsistent_within_document_pairs": 30443,
+        "mentions_dropped": 17407,
+        "mentions_total": 87037,
+        "mode": "mention",
+        "percent_requested": 20,
+        "seed": 4,
+        "units_dropped": 17407,
+        "units_total": 87037,
+        "within_document_same_entity_mention_pairs": 94637
+      },
+      "seed": 4
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "status": "follow_up_on_seen_data_not_a_detector_error_rate_estimate",
+  "summary": {
+    "entity_20_percent": {
+      "SUR-CORPUS": {
+        "direct_pair_recall": {
+          "max": 0.6125,
+          "mean": 0.595,
+          "min": 0.5775,
+          "n_seeds": 5
+        },
+        "distinct_cases_lost": {
+          "max": 1,
+          "mean": 0.4,
+          "min": 0,
+          "n_seeds": 5
+        },
+        "pipeline_recall": {
+          "max": 0.6125,
+          "mean": 0.595,
+          "min": 0.5775,
+          "n_seeds": 5
+        },
+        "pipeline_recall_delta_from_unperturbed": {
+          "max": -0.2975,
+          "mean": -0.31500000000000006,
+          "min": -0.3325,
+          "n_seeds": 5
+        }
+      },
+      "SUR-CORPUS_minus_SUR-DOC": {
+        "distinct_cases_lost_delta": {
+          "max": 1,
+          "mean": 0.4,
+          "min": 0,
+          "n_seeds": 5
+        },
+        "pipeline_recall_delta": {
+          "max": 0.56,
+          "mean": 0.5469999999999999,
+          "min": 0.5275,
+          "n_seeds": 5
+        }
+      },
+      "SUR-DOC": {
+        "direct_pair_recall": {
+          "max": 0.0525,
+          "mean": 0.048,
+          "min": 0.0425,
+          "n_seeds": 5
+        },
+        "distinct_cases_lost": {
+          "max": 0,
+          "mean": 0.0,
+          "min": 0,
+          "n_seeds": 5
+        },
+        "pipeline_recall": {
+          "max": 0.0525,
+          "mean": 0.048,
+          "min": 0.0425,
+          "n_seeds": 5
+        },
+        "pipeline_recall_delta_from_unperturbed": {
+          "max": 0.009999999999999995,
+          "mean": 0.005499999999999998,
+          "min": 0.0,
+          "n_seeds": 5
+        }
+      }
+    },
+    "mention_20_percent": {
+      "SUR-CORPUS": {
+        "direct_pair_recall": {
+          "max": 0.6225,
+          "mean": 0.5940000000000001,
+          "min": 0.58,
+          "n_seeds": 5
+        },
+        "distinct_cases_lost": {
+          "max": 0,
+          "mean": 0.0,
+          "min": 0,
+          "n_seeds": 5
+        },
+        "pipeline_recall": {
+          "max": 0.6225,
+          "mean": 0.5940000000000001,
+          "min": 0.58,
+          "n_seeds": 5
+        },
+        "pipeline_recall_delta_from_unperturbed": {
+          "max": -0.2875,
+          "mean": -0.316,
+          "min": -0.33000000000000007,
+          "n_seeds": 5
+        }
+      },
+      "SUR-CORPUS_minus_SUR-DOC": {
+        "distinct_cases_lost_delta": {
+          "max": 0,
+          "mean": 0.0,
+          "min": 0,
+          "n_seeds": 5
+        },
+        "pipeline_recall_delta": {
+          "max": 0.5750000000000001,
+          "mean": 0.5465,
+          "min": 0.5299999999999999,
+          "n_seeds": 5
+        }
+      },
+      "SUR-DOC": {
+        "direct_pair_recall": {
+          "max": 0.05,
+          "mean": 0.0475,
+          "min": 0.0425,
+          "n_seeds": 5
+        },
+        "distinct_cases_lost": {
+          "max": 0,
+          "mean": 0.0,
+          "min": 0,
+          "n_seeds": 5
+        },
+        "pipeline_recall": {
+          "max": 0.05,
+          "mean": 0.0475,
+          "min": 0.0425,
+          "n_seeds": 5
+        },
+        "pipeline_recall_delta_from_unperturbed": {
+          "max": 0.0075,
+          "mean": 0.004999999999999999,
+          "min": 0.0,
+          "n_seeds": 5
+        }
+      }
+    }
+  }
+}

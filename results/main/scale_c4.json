@@ -1,0 +1,337 @@
+{
+ "real|plain": {
+  "results": {
+   "RAW": {
+    "0.7": {
+     "cases_lost": 402,
+     "dup_recall": 0.8805,
+     "dup_recall_lsh": 0.864
+    },
+    "0.75": {
+     "cases_lost": 402,
+     "dup_recall": 0.814,
+     "dup_recall_lsh": 0.864
+    },
+    "link_person": {
+     "true": 10830147,
+     "predicted": 10830147,
+     "correct": 10830147,
+     "recall": 1.0,
+     "precision": 1.0
+    }
+   },
+   "MASK": {
+    "0.7": {
+     "cases_lost": 894,
+     "dup_recall": 0.9005,
+     "dup_recall_lsh": 0.8905
+    },
+    "0.75": {
+     "cases_lost": 894,
+     "dup_recall": 0.849,
+     "dup_recall_lsh": 0.8905
+    },
+    "link_person": {
+     "true": 10830147,
+     "predicted": 76206932036,
+     "correct": 10833522,
+     "recall": 1.000311630119148,
+     "precision": 0.00014215927226780717
+    }
+   },
+   "SUR-DOC": {
+    "0.7": {
+     "cases_lost": 228,
+     "dup_recall": 0.1725,
+     "dup_recall_lsh": 0.228
+    },
+    "0.75": {
+     "cases_lost": 228,
+     "dup_recall": 0.111,
+     "dup_recall_lsh": 0.228
+    },
+    "link_person": {
+     "true": 10830147,
+     "predicted": 0,
+     "correct": 0,
+     "recall": 0.0,
+     "precision": NaN
+    }
+   },
+   "SUR-CORPUS": {
+    "0.7": {
+     "cases_lost": 388,
+     "dup_recall": 0.873,
+     "dup_recall_lsh": 0.8615
+    },
+    "0.75": {
+     "cases_lost": 388,
+     "dup_recall": 0.804,
+     "dup_recall_lsh": 0.8615
+    },
+    "link_person": {
+     "true": 10830147,
+     "predicted": 10830147,
+     "correct": 10830147,
+     "recall": 1.0,
+     "precision": 1.0
+    }
+   },
+   "HASH-ENTITY": {
+    "0.7": {
+     "cases_lost": 298,
+     "dup_recall": 0.227,
+     "dup_recall_lsh": 0.284
+    },
+    "0.75": {
+     "cases_lost": 298,
+     "dup_recall": 0.15,
+     "dup_recall_lsh": 0.284
+    },
+    "link_person": {
+     "true": 10830147,
+     "predicted": 0,
+     "correct": 0,
+     "recall": 0.0,
+     "precision": NaN
+    }
+   },
+   "FAKER-DOC": {
+    "0.7": {
+     "cases_lost": 235,
+     "dup_recall": 0.1575,
+     "dup_recall_lsh": 0.211
+    },
+    "0.75": {
+     "cases_lost": 235,
+     "dup_recall": 0.101,
+     "dup_recall_lsh": 0.211
+    },
+    "link_person": {
+     "true": 10830147,
+     "predicted": 5010968,
+     "correct": 428,
+     "recall": 3.951931585046814e-05,
+     "precision": 8.541263883545055e-05
+    }
+   },
+   "ALIAS-DOC": {
+    "0.7": {
+     "cases_lost": 731,
+     "dup_recall": 0.5425,
+     "dup_recall_lsh": 0.5655
+    },
+    "0.75": {
+     "cases_lost": 731,
+     "dup_recall": 0.4375,
+     "dup_recall_lsh": 0.5655
+    },
+    "link_person": {
+     "true": 10830147,
+     "predicted": 7544165802,
+     "correct": 1647264,
+     "recall": 0.15209987454463914,
+     "precision": 0.00021834938987731436
+    }
+   }
+  },
+  "compare": {
+   "MASK@0.7": {
+    "lost": {
+     "diff": 0.005448927380860089,
+     "lo": 0.004961624932165284,
+     "hi": 0.005969454996511357,
+     "only_strategy": 520,
+     "only_base": 28,
+     "mcnemar_p": 1.8094096429002454e-118
+    },
+    "det": {
+     "diff": 0.020000000000000018,
+     "lo": 0.012487499999999957,
+     "hi": 0.028000000000000025,
+     "only_strategy": 51,
+     "only_base": 11,
+     "mcnemar_p": 2.775636864143019e-07
+    }
+   },
+   "MASK@0.75": {
+    "lost": {
+     "diff": 0.005448927380860089,
+     "lo": 0.004961624932165284,
+     "hi": 0.005969454996511357,
+     "only_strategy": 520,
+     "only_base": 28,
+     "mcnemar_p": 1.8094096429002454e-118
+    },
+    "det": {
+     "diff": 0.03500000000000003,
+     "lo": 0.025500000000000075,
+     "hi": 0.044499999999999984,
+     "only_strategy": 83,
+     "only_base": 13,
+     "mcnemar_p": 1.202072479759671e-13
+    }
+   },
+   "SUR-DOC@0.7": {
+    "lost": {
+     "diff": -0.0019270596834749095,
+     "lo": -0.0022814614643438583,
+     "hi": -0.0015837329582581152,
+     "only_strategy": 41,
+     "only_base": 215,
+     "mcnemar_p": 1.1765885328110903e-29
+    },
+    "det": {
+     "diff": -0.708,
+     "lo": -0.7274999999999999,
+     "hi": -0.6890000000000001,
+     "only_strategy": 0,
+     "only_base": 1416,
+     "mcnemar_p": 0.0
+    }
+   },
+   "SUR-DOC@0.75": {
+    "lost": {
+     "diff": -0.0019270596834749095,
+     "lo": -0.0022814614643438583,
+     "hi": -0.0015837329582581152,
+     "only_strategy": 41,
+     "only_base": 215,
+     "mcnemar_p": 1.1765885328110903e-29
+    },
+    "det": {
+     "diff": -0.703,
+     "lo": -0.7230125,
+     "hi": -0.6845,
+     "only_strategy": 0,
+     "only_base": 1406,
+     "mcnemar_p": 0.0
+    }
+   },
+   "SUR-CORPUS@0.7": {
+    "lost": {
+     "diff": -0.00015505077913016523,
+     "lo": -0.0004208521147818769,
+     "hi": 0.00011075055652154733,
+     "only_strategy": 71,
+     "only_base": 85,
+     "mcnemar_p": 0.2979336445419198
+    },
+    "det": {
+     "diff": -0.007499999999999951,
+     "lo": -0.011499999999999955,
+     "hi": -0.0040000000000000036,
+     "only_strategy": 0,
+     "only_base": 15,
+     "mcnemar_p": 6.103515625e-05
+    }
+   },
+   "SUR-CORPUS@0.75": {
+    "lost": {
+     "diff": -0.00015505077913016523,
+     "lo": -0.0004208521147818769,
+     "hi": 0.00011075055652154733,
+     "only_strategy": 71,
+     "only_base": 85,
+     "mcnemar_p": 0.2979336445419198
+    },
+    "det": {
+     "diff": -0.009999999999999898,
+     "lo": -0.014499999999999957,
+     "hi": -0.006000000000000005,
+     "only_strategy": 0,
+     "only_base": 20,
+     "mcnemar_p": 1.9073486328125e-06
+    }
+   }
+  }
+ },
+ "dose": {
+  "n": 2000,
+  "median_m": 0.2575069608053116,
+  "rec_raw": 0.8805,
+  "rec_sur": 0.1725,
+  "rec_pred": 0.172,
+  "mae": 0.0075461269730302954
+ },
+ "real|datatrove": {
+  "results": {
+   "RAW": {
+    "0.7": {
+     "cases_lost": 496,
+     "dup_recall": 0.88,
+     "dup_recall_lsh": 0.878
+    },
+    "0.75": {
+     "cases_lost": 496,
+     "dup_recall": 0.8135,
+     "dup_recall_lsh": 0.878
+    },
+    "link_person": {
+     "true": 10830147,
+     "predicted": 10830147,
+     "correct": 10830147,
+     "recall": 1.0,
+     "precision": 1.0
+    }
+   },
+   "MASK": {
+    "0.7": {
+     "cases_lost": 960,
+     "dup_recall": 0.9,
+     "dup_recall_lsh": 0.8795
+    },
+    "0.75": {
+     "cases_lost": 960,
+     "dup_recall": 0.8485,
+     "dup_recall_lsh": 0.8795
+    },
+    "link_person": {
+     "true": 10830147,
+     "predicted": 76206932036,
+     "correct": 10833522,
+     "recall": 1.000311630119148,
+     "precision": 0.00014215927226780717
+    }
+   }
+  },
+  "compare": {
+   "MASK@0.7": {
+    "lost": {
+     "diff": 0.005138825822599759,
+     "lo": 0.004640448318252798,
+     "hi": 0.005648278382598872,
+     "only_strategy": 495,
+     "only_base": 31,
+     "mcnemar_p": 1.074430989861661e-108
+    },
+    "det": {
+     "diff": 0.020000000000000018,
+     "lo": 0.012500000000000063,
+     "hi": 0.027999999999999914,
+     "only_strategy": 50,
+     "only_base": 10,
+     "mcnemar_p": 1.6163814566157175e-07
+    }
+   },
+   "MASK@0.75": {
+    "lost": {
+     "diff": 0.005138825822599759,
+     "lo": 0.004640448318252798,
+     "hi": 0.005648278382598872,
+     "only_strategy": 495,
+     "only_base": 31,
+     "mcnemar_p": 1.074430989861661e-108
+    },
+    "det": {
+     "diff": 0.03500000000000003,
+     "lo": 0.025499999999999967,
+     "hi": 0.04499999999999993,
+     "only_strategy": 84,
+     "only_base": 14,
+     "mcnemar_p": 2.4575158375112673e-13
+    }
+   }
+  }
+ }
+}

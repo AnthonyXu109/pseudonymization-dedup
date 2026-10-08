@@ -1,0 +1,189 @@
+{
+ "RAW n5": {
+  "recall": "364/400",
+  "lost": 11,
+  "residual": 36
+ },
+ "RAW n3": {
+  "recall": "373/400",
+  "lost": 20,
+  "residual": 27,
+  "vs_RAW5": {
+   "d_lost": 9.0,
+   "ci": [
+    3.0,
+    17.0
+   ],
+   "clusters_changed": 7
+  }
+ },
+ "RAW n2": {
+  "recall": "379/400",
+  "lost": 34,
+  "residual": 21,
+  "vs_RAW5": {
+   "d_lost": 23.0,
+   "ci": [
+    10.0,
+    39.024999999999864
+   ],
+   "clusters_changed": 12
+  }
+ },
+ "SUR-DOC n5": {
+  "recall": "17/400",
+  "lost": 0,
+  "residual": 383,
+  "vs_RAW5": {
+   "d_lost": -11.0,
+   "ci": [
+    -27.0,
+    -1.0
+   ],
+   "clusters_changed": 5
+  }
+ },
+ "SUR-DOC n3": {
+  "recall": "57/400",
+  "lost": 0,
+  "residual": 343,
+  "vs_RAW5": {
+   "d_lost": -11.0,
+   "ci": [
+    -27.0,
+    -1.0
+   ],
+   "clusters_changed": 5
+  }
+ },
+ "SUR-DOC n2": {
+  "recall": "95/400",
+  "lost": 1,
+  "residual": 305,
+  "vs_RAW5": {
+   "d_lost": -10.0,
+   "ci": [
+    -27.0,
+    0.0
+   ],
+   "clusters_changed": 6
+  }
+ },
+ "FAKER-DOC n5": {
+  "recall": "19/400",
+  "lost": 0,
+  "residual": 381,
+  "vs_RAW5": {
+   "d_lost": -11.0,
+   "ci": [
+    -27.0,
+    -1.0
+   ],
+   "clusters_changed": 5
+  }
+ },
+ "FAKER-DOC n3": {
+  "recall": "67/400",
+  "lost": 0,
+  "residual": 333,
+  "vs_RAW5": {
+   "d_lost": -11.0,
+   "ci": [
+    -27.0,
+    -1.0
+   ],
+   "clusters_changed": 5
+  }
+ },
+ "FAKER-DOC n2": {
+  "recall": "123/400",
+  "lost": 1,
+  "residual": 277,
+  "vs_RAW5": {
+   "d_lost": -10.0,
+   "ci": [
+    -27.0,
+    0.0
+   ],
+   "clusters_changed": 6
+  }
+ },
+ "SUR-DOC-SKIP": {
+  "recall": "361/400",
+  "lost": 24,
+  "residual": 39,
+  "vs_RAW5": {
+   "d_lost": 13.0,
+   "ci": [
+    5.0,
+    23.0
+   ],
+   "clusters_changed": 12
+  }
+ },
+ "HASH-SKIP": {
+  "recall": "361/400",
+  "lost": 24,
+  "residual": 39,
+  "vs_RAW5": {
+   "d_lost": 13.0,
+   "ci": [
+    5.0,
+    23.0
+   ],
+   "clusters_changed": 12
+  }
+ },
+ "YEAR": {
+  "recall": "165/400",
+  "lost": 0,
+  "residual": 235,
+  "vs_RAW5": {
+   "d_lost": -11.0,
+   "ci": [
+    -27.0,
+    -1.0
+   ],
+   "clusters_changed": 5
+  }
+ },
+ "YEAR-FAKER": {
+  "recall": "188/400",
+  "lost": 0,
+  "residual": 212,
+  "vs_RAW5": {
+   "d_lost": -11.0,
+   "ci": [
+    -27.0,
+    -1.0
+   ],
+   "clusters_changed": 5
+  }
+ },
+ "ALIAS-DOC": {
+  "recall": "237/400",
+  "lost": 13,
+  "residual": 163,
+  "vs_RAW5": {
+   "d_lost": 2.0,
+   "ci": [
+    -4.0,
+    9.0
+   ],
+   "clusters_changed": 7
+  }
+ },
+ "DROP": {
+  "recall": "362/400",
+  "lost": 24,
+  "residual": 38,
+  "vs_RAW5": {
+   "d_lost": 13.0,
+   "ci": [
+    5.0,
+    23.0
+   ],
+   "clusters_changed": 12
+  }
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "TAB gold para": {
+  "RAW": {
+   "rec": 0.91,
+   "removed": 11,
+   "lp": {
+    "true": 35943,
+    "predicted": 35935,
+    "correct": 35935,
+    "recall": 0.9997774253679437,
+    "precision": 1.0
+   }
+  },
+  "HASH-ENTITY": {
+   "rec": 0.1375,
+   "removed": 0,
+   "lp": {
+    "true": 35943,
+    "predicted": 0,
+    "correct": 0,
+    "recall": 0.0,
+    "precision": NaN
+   }
+  },
+  "FAKER-DOC": {
+   "rec": 0.045,
+   "removed": 0,
+   "lp": {
+    "true": 35943,
+    "predicted": 1146,
+    "correct": 0,
+    "recall": 0.0,
+    "precision": 0.0
+   }
+  },
+  "SUR-SUBJECT": {
+   "rec": 0.91,
+   "removed": 0,
+   "lp": {
+    "true": 35943,
+    "predicted": 0,
+    "correct": 0,
+    "recall": 0.0,
+    "precision": NaN
+   }
+  }
+ },
+ "Enron natural": {
+  "RAW": {
+   "rec": 1.0,
+   "removed": 457
+  },
+  "HASH-ENTITY": {
+   "rec": 0.19118745332337567,
+   "removed": 83
+  },
+  "FAKER-DOC": {
+   "rec": 0.13741598207617625,
+   "removed": 86
+  },
+  "SUR-SUBJECT": {
+   "rec": 1.0,
+   "removed": 73
+  }
+ }
+}

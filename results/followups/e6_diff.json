@@ -1,0 +1,38 @@
+{
+ "df<=5": {
+  "one_flag": 2188,
+  "one_tp": 200,
+  "one_sur": 1488,
+  "two_flag": 628,
+  "two_tp": 197,
+  "two_sur": 7,
+  "leaked": 846,
+  "pairs_with_leak": 369,
+  "surrogates_in_orig": 22009,
+  "one_precision": 0.09140767824497258,
+  "one_recall": 0.2364066193853428,
+  "two_precision": 0.31369426751592355,
+  "two_recall": 0.23286052009456265
+ },
+ "none": {
+  "one_flag": 32945,
+  "one_tp": 846,
+  "one_sur": 22009,
+  "two_flag": 13197,
+  "two_tp": 830,
+  "two_sur": 3525,
+  "leaked": 846,
+  "pairs_with_leak": 369,
+  "surrogates_in_orig": 22009,
+  "one_precision": 0.02567916224009713,
+  "one_recall": 1.0,
+  "two_precision": 0.06289308176100629,
+  "two_recall": 0.9810874704491725
+ },
+ "released_pair_jaccard": {
+  "median": 0.3711581740035527,
+  "ge_03": 319,
+  "ge_05": 57,
+  "n": 400
+ }
+}

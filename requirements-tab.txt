@@ -1,0 +1,3 @@
+# Tested for the package-relative TAB fixed-release rerun on Python 3.12.14.
+numpy==2.3.5
+scipy==1.18.1
